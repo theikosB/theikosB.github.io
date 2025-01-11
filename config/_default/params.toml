@@ -1,11 +1,15 @@
 colorScheme = "ocean"
-defaultAppearance = "light"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = false
 replyByEmail = false
 disableImageOptimization = false
 disableTextInHeader = false
+
+backgroundImageWidth = 1200
+defaultBackgroundImage = "img/background.jpeg" # used as default for background images 
+defaultFeaturedImage = "img/mew.jpg" # used as default for featured images in all articles
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
 
@@ -20,7 +24,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+layout = "background"
 showRecent = false
 showRecentItems = 5
 showMoreLink = false
@@ -36,10 +40,11 @@ showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = true
-showHero = false
+showHero = true
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
+showBreadcrumbs = true
 showDraftLabel = true
 showEdit = false
 editAppendPath = true
@@ -47,12 +52,12 @@ seriesOpened = false
 showHeadingAnchors = true
 showPagination = true
 invertPagination = false
-showReadingTime = true
-showTableOfContents = false
-showTaxonomies = false
-showAuthorsBadges = false
+showReadingTime = false
+showTableOfContents = true
+showTaxonomies = true
+showAuthorsBadges = true
 showWordCount = true
-showZenMode = false
+showZenMode = true
 
 [list]
 showHero = false
