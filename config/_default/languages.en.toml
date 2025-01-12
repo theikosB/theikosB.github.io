@@ -14,11 +14,11 @@ secondaryLogo = "img/logo.png"
 
 [params.author]
 name = "Daibik Barik"
-image = "img/mew.jpg"
+image = "img/My Bitmoji.jpeg"
 imageQuality = 96
 headline = "Figuring out life"
 description = "I'm Daibik Barik, this website is meant to act as a portflio and a blog!"
-bio = "I'm still a student, so learning everyday!"
+bio = "Student, likes to think about... well thinking!"
 links = [
     # { email = "mailto:hello@your_domain.com" },
     { link = "https://theikosB.github.io/" },

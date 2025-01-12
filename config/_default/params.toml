@@ -37,8 +37,8 @@ layoutBackgroundBlur = false
 showDate = true
 showViews = false
 showLikes = false
-showDateOnlyInArticle = false
-showDateUpdated = false
+showDateOnlyInArticle = true
+showDateUpdated = true
 showAuthor = true
 showHero = true
 heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
@@ -60,18 +60,19 @@ showWordCount = true
 showZenMode = true
 
 [list]
-showHero = false
+showHero = true
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
 showSummary = false
 showViews = false
 showLikes = false
-showTableOfContents = false
-showCards = false
+showTableOfContents = true
+showCards = true
 orderByWeight = false
 groupByYear = true
-cardView = false
+cardView = true
 cardViewScreenWidth = false
 constrainItemsWidth = false
 
@@ -84,7 +85,7 @@ showHero = false
 showBreadcrumbs = false
 showViews = false
 showLikes = false
-showTableOfContents = false
+showTableOfContents = true
 cardView = false
 
 [term]

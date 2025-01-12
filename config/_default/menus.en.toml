@@ -20,6 +20,11 @@
  pageRef = "blog"
  weight = 10
 
+ [[main]]
+ name = "Studies"
+ pageRef = "study"
+ weight = 20
+
 [[main]]
  name = "About Me"
  pageRef = "about"
