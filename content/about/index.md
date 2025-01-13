@@ -10,7 +10,7 @@ showDateUpdated: false
 showAuthorBadges: false
 ---
 
-{{< typeit lifelike=true >}} Hi!👋 I'm <strong>Shankha Suvra Dam</strong>! {{< /typeit >}}
+{{< typeit lifelike=true >}} Hi!👋 I'm <strong>Daibik Barik</strong>! {{< /typeit >}}
 
 I'm a teenage college student, with a passion for learning and building new things. Check out some of my [projects] and my [blog]!
 
