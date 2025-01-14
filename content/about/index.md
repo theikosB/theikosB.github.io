@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-weight: 1
+weight: 10
 draft: false
 description: "Details about me, myself and I"
 showAuthor: false
@@ -12,15 +12,27 @@ showAuthorBadges: false
 
 {{< typeit lifelike=true >}} Hi!👋 I'm <strong>Daibik Barik</strong>! {{< /typeit >}}
 
-I'm a teenage college student, who is overwhelmed by the lots and lots of topics and his interests in real life. Even in mathematics. Check out some of my randomness in my [blog]({{< ref "blog" >}})!
+I'm a teenage college student, who is overwhelmed by the lots and lots of topics and his interests in real life. Even in mathematics, I like discrete, probability, analysis, topology and sometimes even statistics. Check out some of my randomness in my [blog]({{< ref "blog" >}})!
 
 ## Education
 
-| Institution | Graduation Date | Qualification | Result |
-| :-: | :-: | :-: | :-: |
-| Indian Statistical Institute, Bangalore Centre | May 2026 | Bachelor of Mathematics (Hons.) | 87% (ongoing) |
-| DAV Model School, Durgapur | May 2023 | 12th CBSE | 96% |
-| DAV Model School, Durgapur | May 2021 | 10th CBSE | 93% |
+- **B.Math. (Bachelor’s)** [Ongoing]
+    - **Institution**: Indian Statistical Institute, Bangalore  
+    - **Field**: Mathematics & Statistics with Computer Science, Physics  
+    - **Grade**: 84.7% (First Year)  
+    - **Coursework**:  
+        Number Theory, Probability, Statistics, Linear Algebra, Group Theory, Rings and Modules, Real Analysis, Multivariable Analysis, Topology, ODE 
+    - **Duration**: Aug 2023 – May 2026*   
+
+---
+
+- **AISSCE (High School)**
+    - **Institution**: DAV Model School, Durgapur  
+    - **Grade**: 96% (Central Board of Secondary Education)  
+    - **Subjects**: Mathematics, Physics, Computer Science, Physical Education, English  
+    - **Duration**: Apr 2021 – Mar 2023  
+
+---
 
 ## Achievements
 
@@ -40,46 +52,6 @@ I'm a teenage college student, who is overwhelmed by the lots and lots of topics
 | Member | Chess Club | October 2023 | *ongoing* |
 | Discipline Captain | School Council | October 2021 | December 2022 |
 
-## Research Internships
-
-- **Research Commons, Mathematics Research Intern** *(Remote)*  
-    - Preparing a curriculum for research-based studies in India on various topics in mathematics.  
-    - Collaborated with undergrads from IITs and BITs.  
-    - **Learning Areas**: ODE, PDE.  
-    - **Duration**: Jan 2025 – (Ongoing)  
-
-## Research Experience
-
-- **Study Project**  
-    - **Institution**: National Institute of Technology, Durgapur  
-    - **Mentorship**: Worked with Dr. Kartick Mohanta under Prof. Anita Pal.  
-    - **Topic**: Modeling on Fuzzy Graphs and Dual Warehouse Inventory Model with Trade Credit.  
-    - **Skills Acquired**: Fuzzy Graph Theory, ODE, Inventory Control Management.  
-    - **Duration**: Winter 2024  
-
----
-
-- **PolyMath Junior** *(Williams College, US)*  
-    - Worked on **Asymmetric Colourings of Graphs** under mentorship by Prof. Puck Rombach, Daniel Johnston, and Jeremy Quail.  
-    - Participated in group presentations and contributed to publishing a paper.  
-    - **Skills Acquired**: Graph Theory, Group Theory, SageMath.  
-    - **Duration**: Summer 2024  
-
----
-
-- **UDGRP Winter** *(Indian Statistical Institute, Bangalore)*  
-    - Taken by sophomores at ISI to bridge learning topics outside the core syllabus.  
-    - **2024 Topics**: Knot Theory, Geometric Group Theory, Enumerative Combinatorics, Fourier Analysis, Measure Theory.  
-    - **2023 Topics**: Combinatorial Game Theory, Commutative Algebra, LaTeX.  
-    - **Duration**: Winter 2024, 2023  
-
-## Research Publications
-
-### **Journal Articles**
-- **Asymmetric Vertex Colorings of Disjoint Unions of Graphs**  
-  - Published in *The Polymath Jr.* (2024)  
-  - Contribution as part of the Asymmetric Graph Coloring Team, including Daibik Barik.  
-  - [arXiv Preprint](https://arxiv.org/abs/2412.00574)  
 
 ## Miscellaneous Skills
 

@@ -18,12 +18,12 @@
 [[main]]
  name = "Blog"
  pageRef = "blog"
- weight = 10
+ weight = 30
 
  [[main]]
- name = "Studies"
+ name = "Study Materials"
  pageRef = "study"
- weight = 20
+ weight = 50
 
 [[main]]
  name = "About Me"
@@ -31,20 +31,15 @@
  weight = 10
 
 [[main]]
- name = "More"
- weight = 1000
+ name = "Research"
+ pageRef = "research"
+ weight = 20
 
-[[main]]
- name = "Certyard"
- parent = "More"
- pageRef = "certyard"
- weight = 1
+[[main]] 
+ name = "Activities"
+ pageRef = "activity"
+ weight = 40
 
-[[main]]
- name = "Projects"
- parent = "More"
- pageRef = "projects"
- weight = 2
 
 # -- Main Menu --
 # The main menu is displayed in the header at the top of the page.

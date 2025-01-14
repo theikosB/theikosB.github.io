@@ -9,43 +9,58 @@ showAuthor: true
 date: 2024-12-18
 ---
 
-{{< lead >}}
-Who are we even?
-{{< /lead >}}
+# About
+
+{{< lead >}}  
+Who are we even?  
+{{< /lead >}}  
 
 Hello there! This is my first blog post, as is evidenced by the title.  
 \
-So, if you're reading this, you are either a friend, a family member, or a curious stranger who stumbled upon this blog. Either way, thanks for coming! It means a lot to me. I'm excited to share my thoughts, experiences, and knowledge with you all. This blog will be a space for me to express myself, share my passions, and connect with like-minded individuals, and learn new positions from people who disagree. I hope you'll join me on this journey and share your thoughts and ideas as well.  
+If you're reading this, you are either a friend, a family member, or a curious stranger who stumbled upon this blog. Either way, thanks for stopping by! It means a lot to me. I'm excited to share my thoughts, experiences, and passions with all of you. This blog will serve as a space for me to express myself, discuss my interests, and connect with like-minded people. I’m also looking forward to learning from those who might disagree or bring new perspectives. Let’s grow together on this journey!
 
-### Well, who am I?
+---
 
-Well, I am `Shankha Suvra Dam`, a highly mispronounced name, due to nature of Bengali names. As this blog post is my first and is fixed in a set period of time, the following information will be outdated in some time. However, that's just how time works, it moves on ahead without consideration of one's attempt to keep up with it.  
+## Who am I?
 
-#### Academics
-So, as of writing this blog, I am a student at the esteemed [`Indian Statistical Institute, Bangalore Centre`](https://www.isibang.ac.in) doing my [Bachelors in Mathematics (Honours)](https://www.isibang.ac.in/~statmath/courses/bmath.html). I am an active participant in the activities of the campus, with myself being elected a member of *Cultural Committee of ISI Bangalore*, an executive member of the *Math Club* and also being the `Technical Team Head` of the [Limit](https://limitisi.in/) examination, conducted by the students and research scholars of ISI Bangalore, all in the same year!  
+Well, I am **Daibik Barik**, currently pursuing my **Bachelor’s in Mathematics (Honours)** at the prestigious [Indian Statistical Institute, Bangalore Centre](https://www.isibang.ac.in).  
 
-{{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
-**Wait, what about other subjects?**  
-Although I am doing a degree in Pure Mathematics, it doesn't mean I am not keeping track of various other topics. I'm genuinely interested in the other fields of science, infact often finding myself enjoying various interdisciplinary works!
+### Academics  
+As of now, I am in my **second year** at ISI Bangalore. My mathematical interests lie in areas such as **Probability Theory**, **Graph Theory**, **Statistical Inference**, and **Cryptography**. I actively participate in several activities at the institute, including being a part of the following:  
+- **Cultural Committee**: Collaborating to organize vibrant and diverse events throughout the year.  
+- **Math Club of ISI Bangalore**: Engaging in discussions, competitions, and events focused on exploring advanced mathematical concepts.  
+- **Technical Team Head of Limit**: Managing the technical aspects of the [Limit Examination](https://limitisi.in/), organized by ISI students and researchers.  
+
+{{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}  
+**What about other subjects?**  
+Though my degree is focused on pure mathematics, I actively explore interdisciplinary topics, often diving into physics, computer science, and even linguistics for a fresh perspective.  
 {{< /alert >}}
 
-#### Hobbies
-As for my hobbies, I am extremely interested in almost every topic under the sun. Here's a quick run down through some of them 😉:
+---
 
-- **Reading**: I am a voracious reader of books (read my New Year Resolutions for 2025 for some book-ish commitments!)
-- **Writing**: I have a keen interest in writing, with poetry being my tool of choice.
-- **Chess**: I've had a very on and off relationship with chess over the years. I have always been an *average* player for the most part, and often don't play chess for long periods of time, but when I come back to it, I usually end up with almost an addiction to it. I regularly participate in chess tournament organised in my campus, infact I organised the latest one at the time of writing. In my previous round of interest, I obtained a *FIDE rating* (in blitz and rapid) in the first FIDE tournament of my entire life! (I thank my friends, *Suryansh Shirbhate* and *Daibik Barik* for helping me participate in that tournament 🥰)
-- **History**: Being a bookworm has really helped with making me comfortable with reading encyclopedias and regional books on history of various regions. As of writing this, I have a keen interest in reading historical fiction, it's really intriguing too once you know the inside references and characters
-- **Linguistics**: This has been a topic that has recently grown on me, and I've grown to really like the fact that the sheer vastness of the field is just staggering. And there's so much we don't even know or guess, even though it is about us, the very people we're studying. We know so much in detail about everything apart from us, and that's amazing
-- **Competitive Programming**: I'm a really competitive person, and I initially thought this would be fun in that way. However, it ended up not being what I thought of. However, I really find myself solving these questions to be so rewarding and fun. I don't do competitive programming for the competitive part as much anymore, it's now just become a way to enjoy problem solving for me, which I find to be really nice.
-- **Movies, Series and Anime**: I think this is basically obvious for why I am interested in these. My desire for plot and my hunger for something interesting drives this passion of mine. If you have any suggestions for any content, do share! I'm always down for new suggestions. 😁
+## Hobbies  
 
-### Why start a blog?
+I believe in maintaining a balance between academics and personal interests. Here’s a glimpse into some of the things I enjoy:  
 
-Well, it isn't really about blogging for me here though. I feel that I need some sort of online presence centralising my existence instead of needing to link my various materials together for people to peruse through, and I've made this website for the same! Since I have the ability to create a blog, why not use it for self-expression in the meanwhile? It atleast sounds fun to me. We'll see how this fares.  
+- **Reading**: Books, papers, and everything in between! I’m particularly drawn to mathematical writings, history, and thought-provoking fiction.  
+- **Chess**: A game of strategy and patience. I’ve recently gained my **FIDE rating** in blitz and rapid chess, thanks to the encouragement of my friends. I also represented ISI Bangalore in the **India College Chess Championship**.  
+- **Writing**: Whether it’s poetry or academic writing, I find joy in expressing my thoughts through words.  
+- **Competitive Programming**: Though not heavily competitive, I enjoy problem-solving and participating in coding challenges for fun.  
+- **Movies, Series, and Anime**: I’m always up for recommendations—if it’s got a gripping plot, I’m all in!  
+- **Exploring Languages**: I have a knack for languages, from understanding German basics to exploring linguistic structures in different tongues.  
 
-### Adios
+---
 
-I think this is all I've got to say for my first post! See some of my newer posts as follows if you're interested.
+## Why Start a Blog?  
+
+This blog is my little corner on the internet where I can document my journey, share knowledge, and build an online presence. It’s a way to centralize my work and thoughts, instead of scattering them across platforms. Writing here also gives me a creative outlet to express myself while keeping it accessible to friends, family, and curious strangers like you.  
+
+---
+
+## Adios  
+
+That’s all for now! I hope this gave you a glimpse into who I am and what I’m passionate about. Feel free to explore my newer posts for more updates and insights.  
+\
+Thank you for visiting, and I hope you enjoy this journey with me!  
 
 {{< list limit=2 >}}
