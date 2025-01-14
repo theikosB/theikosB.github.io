@@ -9,7 +9,7 @@ cascade:
 ---
 
 {{< lead >}}
-This blog is a place for updates to the randomest (and sometimes not so) things that happen in my life. Ready for a roller coaster ride?
+<div style="text-align: justify"> This blog is a place for updates to the randomest (and sometimes not so) things that happen in my life. Ready for a roller coaster ride?</div>
 {{< /lead >}}
 
 ---

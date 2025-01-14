@@ -1,5 +1,5 @@
 ---
-title: "Academic Activities"
+title: "Activities"
 weight: 10
 draft: false
 description: "Contains all research details till now"
@@ -11,7 +11,7 @@ showAuthorBadges: false
 ---
 
 {{< lead >}}
-I am using this page to list out (kind of like a _academic journal_) the activites which I do both during the academic semesters and over the breaks.
+<div style="text-align: justify">I am using this page to list out (kind of like a <i>academic journal</i>) the activites which I do both during the academic semesters and over the breaks.</div>
 {{</ lead >}}
 
 ---

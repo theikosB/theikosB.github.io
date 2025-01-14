@@ -10,9 +10,11 @@ showDateUpdated: false
 showAuthorBadges: false
 ---
 
-{{< typeit lifelike=true >}} Hi!👋 I'm <strong>Daibik Barik</strong>! {{< /typeit >}}
+{{< lead >}}
+{{< typeit lifelike=true >}}Hi!👋 I'm <strong>Daibik Barik</strong>! {{< /typeit >}}
 
 <div style="text-align: justify"> I'm a teenage college student, who is overwhelmed by the lots and lots of topics and his interests in real life. Even in mathematics, I like discrete, probability, analysis, topology and sometimes even statistics. Check out some of my randomness in my <a href="/blog">blog</a>! </div>
+{{</lead>}}
 
 ## Education
 
@@ -60,12 +62,7 @@ showAuthorBadges: false
 - **Platforms**: LaTeX, SQL, HTML, Octave, Markdown, Mathematica
 
 ### **Hobbies**
-- Photography, (Participated and won in _Shuttersbug_, a school level photography competition)
-- Chess (FIDE Rated: 1576 in blitz)
-- Reading
-- Listening to Music (link to my spotify account)
-- Painting (Passed 4th year under Bengal Arts Association) 
-- Outdoor Sports (Badminton, Swimming, Cricket etc.)
+They are listed in details under my <a href="/blog/">introductory blog post</a>.
 
 ---
 

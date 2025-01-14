@@ -31,23 +31,22 @@ As of now, I am in my **second year** at ISI Bangalore. My mathematical interest
 - **Math Club of ISI Bangalore**: Engaging in discussions, competitions, and events focused on exploring advanced mathematical concepts.  
 - **Technical Team Head of Limit**: Managing the technical aspects of the [Limit Examination](https://limitisi.in/), organized by ISI students and researchers.  
 
-{{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}  
+{{< alert icon="fire" cardColor="#3956e6" iconColor="#060a6b" textColor="#f1faee" >}}  
 **What about other subjects?**  
 Though my degree is focused on pure mathematics, I actively explore interdisciplinary topics, often diving into physics, computer science, and even linguistics for a fresh perspective.  
 {{< /alert >}}
 
 ---
 
-## Hobbies  
-
-I believe in maintaining a balance between academics and personal interests. Here’s a glimpse into some of the things I enjoy:  
-
-- **Reading**: Books, papers, and everything in between! I’m particularly drawn to mathematical writings, history, and thought-provoking fiction.  
-- **Chess**: A game of strategy and patience. I’ve recently gained my **FIDE rating** in blitz and rapid chess, thanks to the encouragement of my friends. I also represented ISI Bangalore in the **India College Chess Championship**.  
-- **Writing**: Whether it’s poetry or academic writing, I find joy in expressing my thoughts through words.  
-- **Competitive Programming**: Though not heavily competitive, I enjoy problem-solving and participating in coding challenges for fun.  
-- **Movies, Series, and Anime**: I’m always up for recommendations—if it’s got a gripping plot, I’m all in!  
-- **Exploring Languages**: I have a knack for languages, from understanding German basics to exploring linguistic structures in different tongues.  
+### Hobbies
+Even though I am unsure about the topics I should pursue, that never stops me from building 100s of other interest in various other fields.
+- **Photography**, (Participated and won in _Shuttersbug_, a school level photography competition)
+- **Chess** (FIDE Rated: 1576 in blitz)
+- **Watching movies**, having frequently being termed as "watch-it-all" by my friends, I enjoy movies in every genre and plots and hence this obsession.
+- **Reading**, interest in reading English and Bengali poems, short stories, clasical novels, even articles if I find them interesting.
+- **Listening to Music**, have a look in my <a href= "https://open.spotify.com/user/pv327c8kr3lcp1m2ota0tzgun" target="_blank">spotify account</a>
+- **Painting**, passed 4th year under Bengal Arts Association 
+- **Outdoor Sports** (Badminton, Swimming, Cricket etc.)
 
 ---
 

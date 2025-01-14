@@ -9,7 +9,7 @@ date: 2024-12-18
 ---
 
 {{< lead >}}
-Hello all! So I decided to have all the study materials, which includes book pdfs, assignments, class tests, homeworks and their solutions (however much I can manage with the help of my friends) in one place which might serve as a helpful site for the future students of mathematics.
+<div style="text-align: justify">Hello all! So I decided to have all the study materials, which includes book pdfs, assignments, class tests, homeworks and their solutions (however much I can manage with the help of my friends) in one place which might serve as a helpful site for the future students of mathematics.</div>
 {{</ lead >}}
 
 ---
