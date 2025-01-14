@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-weight: 10
+weight: 20
 draft: false
 description: "Details about me, myself and I"
 showAuthor: false
@@ -12,7 +12,7 @@ showAuthorBadges: false
 
 {{< typeit lifelike=true >}} Hi!👋 I'm <strong>Daibik Barik</strong>! {{< /typeit >}}
 
-I'm a teenage college student, who is overwhelmed by the lots and lots of topics and his interests in real life. Even in mathematics, I like discrete, probability, analysis, topology and sometimes even statistics. Check out some of my randomness in my [blog]({{< ref "blog" >}})!
+<div style="text-align: justify"> I'm a teenage college student, who is overwhelmed by the lots and lots of topics and his interests in real life. Even in mathematics, I like discrete, probability, analysis, topology and sometimes even statistics. Check out some of my randomness in my <a href="/blog">blog</a>! </div>
 
 ## Education
 
@@ -57,7 +57,7 @@ I'm a teenage college student, who is overwhelmed by the lots and lots of topics
 
 ### **Technical Skills**
 - **Programming Languages**: Python, C, R  
-- **Platforms**: LaTeX, SQL, HTML, Octave  
+- **Platforms**: LaTeX, SQL, HTML, Octave, Markdown, Mathematica
 
 ### **Hobbies**
 - Photography, (Participated and won in _Shuttersbug_, a school level photography competition)

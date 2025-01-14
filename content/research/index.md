@@ -1,6 +1,6 @@
 ---
 title: "Research"
-weight: 20
+weight: 10
 draft: false
 description: "Contains all research details till now"
 showAuthor: false
@@ -10,7 +10,11 @@ showDateUpdated: false
 showAuthorBadges: false
 ---
 
+{{< lead >}}
 As my studies are research based (as in I _want_ to research in future, and not like my current research is contributing highly to the society and I deserve a Nobel for that!), I decided it was best to ceate a separate page dedicated to my internships, experiences, talks and papers as to keep them together, which makes it easy to manage.
+{{</ lead >}}
+
+---
 
 ## Research Internships
 
