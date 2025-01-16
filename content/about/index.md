@@ -71,7 +71,7 @@ They are listed in details under my <a href="/blog/firstpost/#hobbies">introduct
 ---
 
 ## Curriculum Vitae
-Check out my CV!  
+If you want to check out my CV.  
 {{< button href="./cv.pdf" target="_blank" >}} {{< icon "download" >}} {{< /button >}}
 
 

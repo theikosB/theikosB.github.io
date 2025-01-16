@@ -65,7 +65,7 @@ showAuthorBadges: false
     - [Notes] and [Video]
 
 ## Online Courses
-- edX
-    - CS50P Harvard Comp
-    - Causal Dags Harvard business school
-- Mathematical logic Stanford
+- <a href = "https://pll.harvard.edu/course/cs50s-introduction-programming-python" target = "_blank">**CS50's Introduction to Programming with Python**</a> by _Harvard School of Engineering and Applied Sciences_. (Completed) <a href="./CS50P.pdf" target="_blank" >Certificate here.</a>
+- <a href = "https://pll.harvard.edu/course/causal-diagrams-draw-your-assumptions-your-conclusions" target = "_blank">**Causal Diagrams: Draw Your Assumptions Before Your Conclusions**</a> by _Harvard Faculty of Arts & Sciences_. Completed first 5 weeks.
+- <a href = "https://www.coursera.org/learn/mathematical-thinking" target = "_blank">**Introduction to Mathematical Thinking**</a> by _Stanford Online_
+- <a href = "https://www.coursera.org/learn/mathematical-thinking" target = "_blank">**Python(Basic)**</a>, <a href = "https://www.coursera.org/learn/mathematical-thinking" target = "_blank">**Problem Solving (Basic)**</a> by _HackerRank_
