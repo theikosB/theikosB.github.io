@@ -44,25 +44,29 @@ Also if you're a student and came here just for the study materials, they're <a 
 - Passed **Indian Olympiad Qualifier for Mathematics** (or equivalent) — Mathematics Teachers’ Association of India (2020, 2019, 2018)  
 - Qualified for **Atmadeep** — Times of India (2018)  
 
-## Activities
-
-| Role | Organisation | Start Date | End Date |
-| :-: | :-: | :-: | :-: |
-| Member | Movie Committee Club | October 2024 | *ongoing* |
-| Volunteer | Cultural Committee | October 2023 | April 2024 |
-| Volunteer | Hostel Library Committee | October 2023 | April 2024 |
-| Member | Chess Club | October 2023 | *ongoing* |
-| Discipline Captain | School Council | October 2021 | December 2022 |
-
 
 ## Miscellaneous Skills
 
+### **Languages** 
+- **English, Bengali:** Working proficiency.
+- **Hindi:** Can read, write and speak
+
 ### **Technical Skills**
 - **Programming Languages**: Python, C, R  
-- **Platforms**: LaTeX, SQL, HTML, Octave, Markdown, Mathematica
+- **Platforms**: LaTeX, SQL, HTML, Octave, Markdown, Mathematica, Julia
+
+### **Other Activities**
+- An active member of the **Chess Club** and **Movie Committee**, as well as volunteer for **Cultural Committee** and previously was a member of **Hostel Library Committe** in ISI Bangalore.
+- Was the **Discipline Captain (Boys)** in the Cabinet Council of DAV Model School, Durgapur.
 
 ### **Hobbies**
 They are listed in details under my <a href="/blog/firstpost/#hobbies">introductory blog post</a>.
+
+---
+
+## Self Studied Topics
+- _Causal inference_ **"What if"** by Miguel A. Harnán & James M. Robins
+- _Knot Theory_ **The Knot Book** by Collin Addams
 
 ---
 

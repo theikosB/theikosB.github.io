@@ -57,9 +57,15 @@ showAuthorBadges: false
   - Contribution as part of the Asymmetric Graph Coloring Team, including Daibik Barik.  
   - [arXiv Preprint](https://arxiv.org/abs/2412.00574)  
 
-## Talks
+## Talks Given
 - **Mathematics Beyond Precision: Navigating the World of (Fuzzy) Uncertainty**
 (Math Club, ISI Bangalore)
     - *Date:* 8th February 2024
     - Covering basics of Fuzzy Set theory
     - [Notes] and [Video]
+
+## Online Courses
+- edX
+    - CS50P Harvard Comp
+    - Causal Dags Harvard business school
+- Mathematical logic Stanford

@@ -1,5 +1,5 @@
 ---
-title: "Activities"
+title: "Academic Activities"
 weight: 10
 draft: false
 description: "Acadmic Journal from start of college"
@@ -20,7 +20,7 @@ showAuthorBadges: false
 ### **Academic Semester I**
 - Made my personal website.
 - Appeared for _**Madhava Mathematics Competition**_.
-- Started Internship as math researcher for **_Research Commons_**. <a href="/research/#research-internships">More details available here</a> under **"Research Commons"**.
+- Started Internship as math researcher for **_Research Commons_**. <a href="/research/#research-internships">More details</a> under **"Research Commons"**.
 - Got selected for _**Jane Street**_ prelims.
 - Completed **CS50P**: Introduction to Python Programming from **Harvard Online (through edX)**. Certificate available here.
 - Started **4th Semester** with subjects: _Topology, Rings & Modules, Ordinary Differential Equations, Linear Regression Models and Electrodynamics_.
@@ -33,11 +33,12 @@ showAuthorBadges: false
 ### **Winter**
 - Started **Causal Diagrams**: Draw your assumptions before your conclusions from **Harvard Online (through edX)**
 - Started **CS50P**: Introduction to Python Programming from **Harvard Online (through edX)**.
-- Started a **project** on the topic **"Inventory Management"** under _Dr. Kartick Mohanta_ under the guidance of _Prof. Anita Pal_. <a href="/research/#research-experience">More details available here</a> under **"Study Project"**.
+- Started a **project** on the topic **"Inventory Management"** under _Dr. Kartick M._ under the guidance of _Prof. Anita Pal_. <a href="/research/#research-experience">More details</a> under **"Study Project"**.
 - Received result of 3rd Semester.
-- Mentored **_"Undergraduate Directed Group Reading Project"_** organised by Math Club, ISI Bangalore on the topic of **"Knot Theory"** along with my friend, _Suryansh Shirbhate_. Notes are available here. <a href="/research/#research-experience">Mentioned here</a> under **"UDGRP Winter"**.
+- Mentored **_"Undergraduate Directed Group Reading Project"_** organised by Math Club, ISI Bangalore on the topic of **"Knot Theory"** along with my friend, _Suryansh Shirbhate_. Notes are available here. <a href="/research/#research-experience">Mentioned</a> under **"UDGRP Winter"**.
 
 ### **Academic Semester II**
+- Started **3rd Semester** with subjects: _Multivariable Analysis, Group Theory, Discrete Mathematics, Intoduction to Statistical Inference and Classical Mechanics_.
 - **Talks/ Seminars Attended:**
     - Bangalore Probability Seminar Series
         - Parthanil 
@@ -47,6 +48,7 @@ showAuthorBadges: false
 ### **Summer**
 
 ### **Academic Semester I**
+- Started **2nd Semester** with subjects: _Probability II, Linear Algebra II, Real Analysis II, Introduction to Statistics & Data Computation and Numerical Computing_.
 
 
 ---
@@ -54,3 +56,4 @@ showAuthorBadges: false
 ## 2023
 ### **Winter**
 ### **Academic Semester II**
+- Started **1st Semester** with subjects: _Probability I, Linear Algebra I, Real Analysis I, Number Theory and Programming with C_.
