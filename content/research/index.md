@@ -53,9 +53,9 @@ showAuthorBadges: false
 
 ### **Journal Articles**
 - **Asymmetric Vertex Colorings of Disjoint Unions of Graphs**  
-  - Published in *The Polymath Jr.* (2024)  
+  - (On-way) Publishing in *The Polymath Jr.* (2024)  
   - Contribution as part of the Asymmetric Graph Coloring Team, including Daibik Barik.  
-  - [arXiv Preprint](https://arxiv.org/abs/2412.00574)  
+  - [ResearchGate Preprint](https://www.researchgate.net/publication/386373293_Asymmetric_Colorings_of_Disjoint_Unions_of_Graphs)  
 
 ## Talks Given
 - **Mathematics Beyond Precision: Navigating the World of (Fuzzy) Uncertainty**

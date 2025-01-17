@@ -41,9 +41,9 @@ showAuthorBadges: false
 - Started **3rd Semester** with subjects: _Multivariable Analysis, Group Theory, Discrete Mathematics, Intoduction to Statistical Inference and Classical Mechanics_.
 - **Talks/ Seminars Attended:**
     - Bangalore Probability Seminar Series
-        - Parthanil 
-        - friendship
-        - something I forgot
+        - _"Phase Transition for Elephant Random Walks with Two Memory Channels"_ by **Parthanil Roy (ISI)** on 18th November at ISI Bangalore.
+        - _"The Friendship Paradox for Social Networks"_ by **Frank den Hollander (Leiden Univ., Netherlands)** on 23rd September at ICTS Bangalore.
+        - _"The SIR epidemic on a dynamic Erdős-Rényi random graph"_ by **Adrian Roellin (NUS, Singapore)** on 23rd September at ICTS Bangalore.
 
 ### **Summer**
 

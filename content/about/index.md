@@ -13,7 +13,7 @@ showAuthorBadges: false
 {{< lead >}}
 {{< typeit lifelike=true >}}Hi!👋 I'm <strong>Daibik Barik</strong>! {{< /typeit >}}
 
-<div style="text-align: justify"> I'm a college student, who is overwhelmed by the lots and lots of topics and his interests in real life. Even in mathematics, I like graph theory, probability, analysis, topology and sometimes even statistics. Here's to the various <a href="/research">research-related works</a> and this is <a href="/activity">how my year went (academically)</a>. If you want to know me, check out some of my randomness in my <a href="/blog">blog</a>! <br>
+<div style="text-align: justify"> I'm a college student, who is overwhelmed by the lots and lots of topics and his interests in real life. Even in mathematics, I like graph theory, probability, analysis, topology and sometimes even statistics. Here's to the various <a href="/research">research-related works</a> and this is <a href="/academic">how my year went (academically)</a>. If you want to know me, check out some of my randomness in my <a href="/blog">blog</a>! <br>
 Also if you're a student and came here just for the study materials, they're <a href="/study">here</a>.</div>
 {{</lead>}}
 
