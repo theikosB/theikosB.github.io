@@ -8,7 +8,7 @@ disableImageOptimization = false
 disableTextInHeader = false
 
 backgroundImageWidth = 1200
-defaultBackgroundImage = "img/background.jpeg" # used as default for background images 
+defaultBackgroundImage = "img/background.jpg" # used as default for background images 
 # defaultFeaturedImage = "img/mew.jpg" # used as default for featured images in all articles
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
@@ -26,12 +26,12 @@ showScrollToTop = true
 [homepage]
 layout = "background"
 showRecent = false
-showRecentItems = 5
+showRecentItems = 2
 showMoreLink = false
 showMoreLinkDest = "/posts/"
 cardView = false
 cardViewScreenWidth = false
-layoutBackgroundBlur = false
+layoutBackgroundBlur = true
 
 [article]
 showDate = true
