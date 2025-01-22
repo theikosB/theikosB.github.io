@@ -2,6 +2,7 @@ colorScheme = "ocean"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
+enableRobotsTXT = true
 enableCodeCopy = true
 replyByEmail = false
 disableImageOptimization = false

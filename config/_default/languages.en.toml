@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Daibik Barik"
+title = "The DodoSite"
 
 [params]
 displayName = "EN"
@@ -48,7 +48,7 @@ links = [
     # { microsoft = "https://www.microsoft.com/" },
     # { orcid = "https://orcid.org/userid" },
     # { patreon = "https://www.patreon.com/username" },
-    { pinterest = "https://in.pinterest.com/kirado14/" },
+    # { pinterest = "https://in.pinterest.com/kirado14/" },
     # { reddit = "https://reddit.com/user/username" },
     # { researchgate = "https://www.researchgate.net/profile/username" },
     # { slack = "https://workspace.url/team/userid" },
@@ -65,7 +65,7 @@ links = [
     # { twitter = "https://twitter.com/username" },
     # { x-twitter = "https://twitter.com/username" },
     # { whatsapp = "https://wa.me/phone-number" },
-    # { youtube = "https://youtube.com/@thedefectivedetective" },
+    { youtube = "https://youtube.com/@daibikbarik452" },
     # { ko-fi = "https://ko-fi.com/username" },
     # { codeberg = "https://codeberg.org/username"},
     # { leetcode = "https://leetcode.com/u/username/"},

@@ -22,7 +22,7 @@ showAuthorBadges: false
 - Appeared for _**Madhava Mathematics Competition**_.
 - Started Internship as math researcher for **_Research Commons_**. <a href="/research/#research-internships">More details</a> under **"Research Commons"**.
 - Got selected for _**Jane Street**_ prelims.
-- Completed **CS50P**: Introduction to Python Programming from **Harvard Online (through edX)**. Certificate available here.
+- Completed **CS50P**: Introduction to Python Programming from **Harvard Online (through edX)**. <a href="/research/#online-courses">Certificate and more details here</a> under CS50P.
 - Started **4th Semester** with subjects: _Topology, Rings & Modules, Ordinary Differential Equations, Linear Regression Models and Electrodynamics_.
 - **Talks/ Seminars Attended:**
     - _"On Fisher Information, Cramer- Rao bound in Quantum Probability"_ by **K B Sinha** on 15th January at ISI Bangalore.
@@ -48,8 +48,7 @@ showAuthorBadges: false
 
 ### **Summer**
 - Took **Polymath Jr. 2024**, a collaborative REU, by _National Science Foundation, America_. More details.
-- Started (& Completed) **Mathematical Thinking** from **Stanford Online (through Coursera)**.
-Certificate available here.
+- Started (& Completed) **Mathematical Thinking** from **Stanford Online (through Coursera)**. <a href="/research/#online-courses">Certificate and more details here</a> under Mathematical Thinking.
 
 ### **Academic Semester II**
 - Started **2nd Semester** with subjects: _Probability II, Linear Algebra II, Real Analysis II, Introduction to Statistics & Data Computation and Numerical Computing_.
