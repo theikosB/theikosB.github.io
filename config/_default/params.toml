@@ -11,11 +11,16 @@ disableTextInHeader = false
 backgroundImageWidth = 1200
 defaultBackgroundImage = "img/background.jpg" # used as default for background images 
 # defaultFeaturedImage = "img/mew.jpg" # used as default for featured images in all articles
+
+highlightCurrentMenuArea = true
+smartTOC = true
+# smartTOCHideUnfocusedChildren = true
+
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [header]
-layout = "basic"
+layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
 showMenu = true
