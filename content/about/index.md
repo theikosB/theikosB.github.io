@@ -17,9 +17,8 @@ showAuthorBadges: false
 Also if you're a student and came here just for the study materials, they're <a href="/study">here</a>.</div>
 {{</lead>}}
 
-## Curriculum Vitae
-If you want to check out my CV.  
-{{< button href="./cv.pdf" target="_blank" >}} {{< icon "download" >}} {{< /button >}}
+ <span style="font-weight:bold;font-size:120%;">Here's my Curriculum Vitae</span> {{< button href="./cv.pdf" target="_blank" >}} {{< icon "download" >}} {{< /button >}}
+
 
 ---
 
@@ -71,10 +70,10 @@ They are listed in details under my <a href="/blog/firstpost/#hobbies">introduct
 ---
 
 ## Self Studied Topics 
-- _Fuzzy_ **Fuzzy Graph Theory** by Sunil Matthew, John N. Mordeson & Davender S. Malik 
+- _Fuzzy_ **"Fuzzy Graph Theory"** by Sunil Matthew, John N. Mordeson & Davender S. Malik 
 - _Causal inference_ **"What if"** by Miguel A. Harnán & James M. Robins
-- _Knot Theory_ **The Knot Book** by Collin Addams
-- _Group Theory_ **Visual Group Theory** by Nathan Carter
+- _Knot Theory_ **"The Knot Book"** by Collin Addams
+- _Group Theory_ **"Visual Group Theory"** by Nathan Carter
 
 
 
