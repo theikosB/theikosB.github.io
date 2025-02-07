@@ -70,10 +70,12 @@ They are listed in details under my <a href="/blog/firstpost/#hobbies">introduct
 ---
 
 ## Self Studied Topics 
+- _Group Theory_ **"Visual Group Theory"** by Nathan Carter
+- _Neural ODE_ **"An introduction to Neural ODE"** by Pau Baldillou Salse
 - _Fuzzy_ **"Fuzzy Graph Theory"** by Sunil Matthew, John N. Mordeson & Davender S. Malik 
 - _Causal inference_ **"What if"** by Miguel A. Harnán & James M. Robins
-- _Knot Theory_ **"The Knot Book"** by Collin Addams
-- _Group Theory_ **"Visual Group Theory"** by Nathan Carter
+- _Knot Theory_ **"The Knot Book"** by Collin Addams, **"Knot Theory"** by Livingstone C.
+- _Game Theory_ **"Combinatorial Game Theory"** by Aaron N. Siegel, **"Winning Ways for Your Mathematical Plays"** by Elwyn R. Berlekamp, John H. Conway, Richard K. Guy
 
 
 

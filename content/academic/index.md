@@ -25,8 +25,8 @@ showAuthorBadges: false
 - Completed **CS50P**: Introduction to Python Programming from **Harvard Online (through edX)**. <a href="/research/#online-courses">Certificate and more details here</a> under CS50P.
 - Started **4th Semester** with subjects: _Topology, Rings & Modules, Ordinary Differential Equations, Linear Regression Models and Electrodynamics_.
 - **Talks/ Seminars Attended:**
+    - _"On The Trace Reconstruction Problem"_ by **Navin Kashyap (IISc.)** on 3rd February at ISI Bangalore.
     - _"On Fisher Information, Cramer- Rao bound in Quantum Probability"_ by **K B Sinha** on 15th January at ISI Bangalore.
-    - _"The Graph Reconstruction Problem"_ by Devansh Dwivedi (2nd year) on 11th January at ISI Bangalore.
 ---
 
 ## 2024
@@ -41,16 +41,16 @@ showAuthorBadges: false
 - Appeared for Simmon Marais Mathematical Competition 2024 in **pair** (with my friend _Suryansh Shirbhate_) [**Scored 23**].
 - Started **3rd Semester** with subjects: _Multivariable Analysis, Group Theory, Discrete Mathematics, Intoduction to Statistical Inference and Classical Mechanics_.
 - **Talks/ Seminars Attended:**
-    - Bangalore Probability Seminar Series
-        - _"Phase Transition for Elephant Random Walks with Two Memory Channels"_ by **Parthanil Roy (ISI)** on 18th November at ISI Bangalore.
-        - _"The Friendship Paradox for Social Networks"_ by **Frank den Hollander (Leiden Univ., Netherlands)** on 23rd September at ICTS Bangalore.
-        - _"The SIR epidemic on a dynamic Erdős-Rényi random graph"_ by **Adrian Roellin (NUS, Singapore)** on 23rd September at ICTS Bangalore.
+    - _"Phase Transition for Elephant Random Walks with Two Memory Channels"_ by **Parthanil Roy (ISI)** on 18th November at ISI Bangalore.
+    - _"The Friendship Paradox for Social Networks"_ by **Frank den Hollander (Leiden Univ., Netherlands)** on 23rd September at ICTS Bangalore.
+    - _"The SIR epidemic on a dynamic Erdős-Rényi random graph"_ by **Adrian Roellin (NUS, Singapore)** on 23rd September at ICTS Bangalore.
 
 ### **Summer**
 - Took **Polymath Jr. 2024**, a collaborative REU, by _National Science Foundation, America_. More details.
 - Started (& Completed) **Mathematical Thinking** from **Stanford Online (through Coursera)**. <a href="/research/#online-courses">Certificate and more details here</a> under Mathematical Thinking.
 
 ### **Academic Semester II**
+- Visited **"Open Day"** at _IISC Bangalore_ and saw numerous projects and experiments conducted there, on different feilds.
 - Started **2nd Semester** with subjects: _Probability II, Linear Algebra II, Real Analysis II, Introduction to Statistics & Data Computation and Numerical Computing_.
 
 

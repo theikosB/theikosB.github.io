@@ -46,7 +46,7 @@ showAuthorBadges: false
 - **UDGRP Winter** *(Indian Statistical Institute, Bangalore)*  
     - Taken by sophomores at ISI to bridge learning topics outside the core syllabus.  
     - **2024 Topics**: Geometric Group Theory, Enumerative Combinatorics, Fourier Analysis, Measure Theory.
-        - **Taught** Knot Theory, along with my friend _Suryansh Shirbhate_. [Handwritten Notes] are available here.  
+        - **Taught** Knot Theory, along with my friend _Suryansh Shirbhate_. <a href="./Notes_merged_organized.pdf" target="_blank" >Handwritten Notes</a> are available here.  
     - **2023 Topics**: Combinatorial Game Theory, Commutative Algebra, LaTeX.  
     - **Duration**: Winter 2024, 2023  
 
