@@ -46,7 +46,7 @@ showAuthorBadges: false
 - **UDGRP Winter** *(Indian Statistical Institute, Bangalore)*  
     - Taken by sophomores at ISI to bridge learning topics outside the core syllabus.  
     - **2024 Topics**: Geometric Group Theory, Enumerative Combinatorics, Fourier Analysis, Measure Theory.
-        - **Taught** Knot Theory, along with my friend _Suryansh Shirbhate_. <a href="./Notes_merged_organized.pdf" target="_blank" >Handwritten Notes</a> are available here.  
+        - **Taught** Knot Theory, along with my friend _Suryansh Shirbhate_. <a href="./Notes_merged_organized.pdf" target="_blank">Handwritten Notes</a> are available here.  
     - **2023 Topics**: Combinatorial Game Theory, Commutative Algebra, LaTeX.  
     - **Duration**: Winter 2024, 2023  
 
@@ -63,7 +63,7 @@ showAuthorBadges: false
 (Math Club, ISI Bangalore)
     - *Date:* 8th February 2024
     - Covering basics of Fuzzy Set theory
-    - [Notes] and [Video]
+    - <a href="./_Fuzzy_Presentation.pdf" target="_blank">Notes</a> and [Video]
 
 ## Online Courses
 - <a href = "https://pll.harvard.edu/course/cs50s-introduction-programming-python" target = "_blank">**CS50's Introduction to Programming with Python**</a> by _Harvard School of Engineering and Applied Sciences_. (Completed) <a href="./CS50P.pdf" target="_blank" >Certificate here.</a>

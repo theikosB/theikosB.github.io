@@ -18,6 +18,7 @@ showAuthorBadges: false
 
 ## 2025 
 ### **Academic Semester IV**
+- Gave a talk on **_Fuzzy Set Theory_**. <a href=="/research/#talks-given">Refer here</a> under **Math Club, ISI Bangalore**. 
 - Made my personal website.
 - Appeared for _**Madhava Mathematics Competition**_.
 - Started Internship as math researcher for **_Research Commons_**. <a href="/research/#research-internships">More details</a> under **"Research Commons"**.
