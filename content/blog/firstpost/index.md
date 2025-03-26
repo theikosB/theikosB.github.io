@@ -1,12 +1,12 @@
 
 ---
 title: "First Post: Introduction!"
-weight: 1
+weight: 100
 draft: false
 description: "My first blog post using Blowfish"
 blog_tags: ["personal"]
 showAuthor: true
-date: 2024-12-18
+date: 2024-12-24
 ---
 
 # About

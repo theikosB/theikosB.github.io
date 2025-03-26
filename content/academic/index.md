@@ -18,7 +18,8 @@ showAuthorBadges: false
 
 ## 2025 
 ### **Academic Semester IV**
-- Gave a talk on **_Fuzzy Set Theory_**. <a href=="/research/#talks-given">Refer here</a> under **Math Club, ISI Bangalore**. 
+- Registered, with friends Shankha Suvra Dam and Anoushka Mandal, in a *Hackathon* named **"Hackhazards"** by the **Namespace Community** to be held from 11th- 20th April.
+- Gave a talk on **_Fuzzy Set Theory_**. <a href="/research/#talks-given">Refer here</a> under **Math Club, ISI Bangalore**. 
 - Made my personal website.
 - Appeared for _**Madhava Mathematics Competition**_.
 - Started Internship as math researcher for **_Research Commons_**. <a href="/research/#research-internships">More details</a> under **"Research Commons"**.
@@ -26,8 +27,10 @@ showAuthorBadges: false
 - Completed **CS50P**: Introduction to Python Programming from **Harvard Online (through edX)**. <a href="/research/#online-courses">Certificate and more details here</a> under CS50P.
 - Started **4th Semester** with subjects: _Topology, Rings & Modules, Ordinary Differential Equations, Linear Regression Models and Electrodynamics_.
 - **Talks/ Seminars Attended:**
-    - _"On The Trace Reconstruction Problem"_ by **Navin Kashyap (IISc.)** on 3rd February at ISI Bangalore.
-    - _"On Fisher Information, Cramer- Rao bound in Quantum Probability"_ by **K B Sinha** on 15th January at ISI Bangalore.
+    - _"In Search of 'Language X': Reconstruction of an Indus Valley Language"_ by **Prof. Peggy Mohan (Ashoka University, Delhi)** on 24th March at IISC Bangalore.
+    - _"History of Time"_ by **Prof. Spenta Wadia (ICTS Bangalore)** on 23rd February at JN Planetarium Bangalore.
+    - _"On The Trace Reconstruction Problem"_ by **Prof. Navin Kashyap (IISc.)** on 3rd February at ISI Bangalore.
+    - _"On Fisher Information, Cramer- Rao bound in Quantum Probability"_ by **Prof. K B Sinha** on 15th January at ISI Bangalore.
 ---
 
 ## 2024

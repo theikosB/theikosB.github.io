@@ -63,7 +63,7 @@ showAuthorBadges: false
 (Math Club, ISI Bangalore)
     - *Date:* 8th February 2024
     - Covering basics of Fuzzy Set theory
-    - <a href="./_Fuzzy_Presentation.pdf" target="_blank">Notes</a> and [Video]
+    - <a href="./_Fuzzy_Presentation.pdf" target="_blank">Notes</a> and [Youtube recording](https://youtu.be/37tKJgsad4c?si=DBw2llWjV-Bfd2Cq).
 
 ## Online Courses
 - <a href = "https://pll.harvard.edu/course/cs50s-introduction-programming-python" target = "_blank">**CS50's Introduction to Programming with Python**</a> by _Harvard School of Engineering and Applied Sciences_. (Completed) <a href="./CS50P.pdf" target="_blank" >Certificate here.</a>

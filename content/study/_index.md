@@ -13,3 +13,7 @@ date: 2024-12-18
 {{</ lead >}}
 
 ---
+
+## Courses Covered So Far:
+
+- **UnderGraduate-** Linear Algebra (2), Probability (2), Real Analysis (2), Number Theory, Statistics (3) , Multivariable Analysis, Discrete Mathematics, Group Theory, Classical Mechanics, Rings and Modules, ODE, Topology and ElectroDynamics.
