@@ -1,6 +1,6 @@
 ---
 title: "Ed Sheeran Concert!"
-weight: 2
+weight: 100
 draft: false
 description: "The story of the day I attended my first concert."
 blog_tags: ["personal", "college"]
@@ -54,4 +54,4 @@ Plan change
 (returning songs) + (bottle find) + (the street vendors) + (metro checking) + (the train sleep) + (majestic beggars) + (uber + dominos book) + (the auto moment) + (wait for dominos)
 
 ### Other Events
-(A surprise!)
+(A surprise!- secret?)

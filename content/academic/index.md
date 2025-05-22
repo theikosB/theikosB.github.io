@@ -17,6 +17,15 @@ showAuthorBadges: false
 ---
 
 ## 2025 
+
+### **Summer**
+- Selected for the **Summer Internship Program** at **IIT Guwahati** under _Prof. Partha Sarathi M._ under **Graph Algorithms**.
+- Started the [MIT OCW course](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) on **Finite Automata**.
+- Started Auditing the [Michigan University Course](https://www.coursera.org/specializations/statistics-with-python) on **Statistics with Python Specialization**. 
+- **Talks/ Seminars Attended:**
+    - _"Treasure Hunt With External Help"_ by **Prof. Barun Gorain (IIT, Bhilai)** on 21st May at IIT Guwahati.
+    - _"Quasi Variational Inequality on Banach Space and Relation to Nash Equilibrium" by **Prof. Asrifa Sultana (IIT, Bhilai)** on 22nd May at IIT Guwahati.
+
 ### **Academic Semester IV**
 - Registered, with friends Shankha Suvra Dam and Anoushka Mandal, in a *Hackathon* named **"Hackhazards"** by the **Namespace Community** to be held from 11th- 20th April.
 - Gave a talk on **_Fuzzy Set Theory_**. <a href="/research/#talks-given">Refer here</a> under **Math Club, ISI Bangalore**. 
@@ -37,7 +46,7 @@ showAuthorBadges: false
 ### **Winter**
 - Started **Causal Diagrams**: Draw your assumptions before your conclusions from **Harvard Online (through edX)**
 - Started **CS50P**: Introduction to Python Programming from **Harvard Online (through edX)**.
-- Started a **project** on the topic **"Inventory Management"** under _Dr. Kartick M._ under the guidance of _Prof. Anita Pal_. <a href="/research/#research-experience">More details</a> under **"Study Project"**.
+- Started a **project** at **NIT Durgapur** on the topic **"Inventory Management"** under _Dr. Kartick M._ under the guidance of _Prof. Anita Pal_. <a href="/research/#research-experience">More details</a> under **"Study Project"**.
 - Received result of 3rd Semester.
 - Was part of group of mentors of **_"Undergraduate Directed Group Reading Project"_** organised by Math Club, ISI Bangalore on the topic of **"Knot Theory"** along with my friend, _Suryansh Shirbhate_. Notes are available here. <a href="/research/#research-experience">Mentioned</a> under **"UDGRP Winter"**.
 
