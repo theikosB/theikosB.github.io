@@ -19,6 +19,9 @@ showAuthorBadges: false
 ## 2025 
 
 ### **Summer**
+- Gave a talk on **_Friendship Paradox_**. <a href="/research/#talks-given">Refer here</a> under **LIMIT Online Camp**.
+- Attended on  udgrp rand walk with present on ballot
+- Submitted an entry on **"Magic of Mathematics in Art"** for the October'25 entry in the [_Compass Magazine_](https://sites.google.com/view/the-mathematical-compass/home). 
 - Selected for the **Summer Internship Program** at **IIT Guwahati** under _Prof. Partha Sarathi M._ under **Graph Algorithms**.
 - Started the [MIT OCW course](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) on **Finite Automata**.
 - Started Auditing the [Michigan University Course](https://www.coursera.org/specializations/statistics-with-python) on **Statistics with Python Specialization**. 
@@ -64,6 +67,7 @@ showAuthorBadges: false
 
 ### **Academic Semester II**
 - Visited **"Open Day"** at _IISC Bangalore_ and saw numerous projects and experiments conducted there, on different feilds.
+- Coding adventure in **Siva Athreya's** _Applebread Problem Solutions_, which could be found [here](https://home.icts.res.in/~athreya/Teaching/ISCD24/).
 - Started **2nd Semester** with subjects: _Probability II, Linear Algebra II, Real Analysis II, Introduction to Statistics & Data Computation and Numerical Computing_.
 
 

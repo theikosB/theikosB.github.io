@@ -22,9 +22,18 @@ showAuthorBadges: false
     - Preparing a curriculum for research-based studies in India on various topics in mathematics.  
     - Collaborated with undergrads from IITs and BITs.  
     - **Learning Areas**: ODE, PDE.  
-    - **Duration**: Jan 2025 – (Ongoing)  
+    - **Duration**: Jan 2025 – Mar 2025  
 
 ## Research Experience
+
+- **Summer Internship Programme**  
+    - **Institution**: Indian Institute of Technology, Guwahati  
+    - **Mentorship**: Worked under Prof. Partha Sarathi M.  
+    - **Topic**: Decontamination of Dynamic network models using external agents. 
+    - **Skills Acquired**: Graph Theory, Algorithms, Complexity Analysis.  
+    - **Duration**: Summer 2025  
+
+---
 
 - **Study Project**  
     - **Institution**: National Institute of Technology, Durgapur  
@@ -59,10 +68,16 @@ showAuthorBadges: false
   - [ResearchGate Preprint](https://www.researchgate.net/publication/386373293_Asymmetric_Colorings_of_Disjoint_Unions_of_Graphs)  
 
 ## Talks Given
+- **Friendship Paradox: Your friends are more popular than you** <br>
+    (LIMIT Camp, Category A)
+    - *Date:* 12th June 2025
+    - Introducing the Friendship Paradox and formulating it mathematically with some examples
+    - <a href="./Friendship Paradox.pdf" target="_blank">Notes</a> and [Youtube recording](https://youtu.be/qnfDG5lV6C4?si=swfH7uKof57EduER).
+
 - **Mathematics Beyond Precision: Navigating the World of (Fuzzy) Uncertainty**
 (Math Club, ISI Bangalore)
-    - *Date:* 8th February 2024
-    - Covering basics of Fuzzy Set theory
+    - *Date:* 8th February 2025
+    - Covering basics of Fuzzy Logic, Set theory, Graphs, Relations and applications
     - <a href="./_Fuzzy_Presentation.pdf" target="_blank">Notes</a> and [Youtube recording](https://youtu.be/37tKJgsad4c?si=DBw2llWjV-Bfd2Cq).
 
 ## Online Courses
