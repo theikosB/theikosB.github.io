@@ -13,7 +13,7 @@ showAuthorBadges: false
 {{< lead >}}
 {{< typeit lifelike=true >}}Hi!👋 I'm <strong>Daibik Barik</strong>! {{< /typeit >}}
 
-<div style="text-align: justify"> I'm a college student, who is overwhelmed by the lots and lots of topics and his interests in real life. Even in mathematics, I like graph theory, probability, analysis, topology and sometimes even statistics. Here's to the various <a href="/research">research-related works</a> and this is <a href="/academic">how my year went (academically)</a>. If you want to know me, check out some of my randomness in my <a href="/blog">blog</a>! <br>
+<div style="text-align: justify"> I'm a college student, who is overwhelmed by the lots and lots of topics and his interests in real life. Even in mathematics, I like graph theory, probability, analysis, topology and sometimes even statistics. Here's to the various <a href="/research">research-related works</a> and this is <a href="/academic">how my journey went (academically)</a>. If you want to know me, check out some of my randomness in my <a href="/blog">blog</a>! <br>
 Also if you're a student and came here just for the study materials, they're <a href="/study">here</a>.</div>
 {{</lead>}}
 
@@ -65,7 +65,17 @@ Also if you're a student and came here just for the study materials, they're <a 
 - Was the **Discipline Captain (Boys)** in the Cabinet Council of DAV Model School, Durgapur.
 
 ### **Hobbies**
-They are listed in details under my <a href="/blog/firstpost/#hobbies">introductory blog post</a>.
+Outside of math, I try to stay curious in other directions too — whether it’s through a camera lens, a chessboard, a half-read novel, or an overly ambitious playlist. I like doing things that keep my brain moving but not always in straight lines.
+
+It’s probably just my way of making sense of the world — or at least trying to.
+
+- 📷 **Photography** — I love the quiet act of framing things. I once won a school-level contest and still occasionally chase good light.
+- ♟️ **Chess** — Blitz rating hovers around 1576, but it’s mostly just instinct and vibes.
+- 🎬 **Movies** — I watch everything. Friends call me “watch-it-all” for a reason.
+- 📚 **Reading** — From Bengali poetry to strange blog posts at 2AM — if it’s written with heart, I’m in.
+- 🎨 **Painting** — I’ve cleared 4th year under Bengal Arts Association and still sketch now and then.
+- 🎧 **Music** — Eclectic taste. You can peek into the madness [on my Spotify](https://open.spotify.com/user/pv327c8kr3lcp1m2ota0tzgun).
+- 🏸 **Sports** — Swimming, badminton, cricket — I like moving around just as much as sitting still with a book.
 
 ---
 
