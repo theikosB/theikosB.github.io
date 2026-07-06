@@ -601,3 +601,58 @@
     border:1px solid rgba(120,120,120,.16);
 
 }
+
+
+/* ===== Academic Activities Timeline ===== */
+
+.timeline {
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 0.75rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: rgba(140, 140, 140, 0.35);
+}
+
+.timeline h2 {
+    position: relative;
+}
+
+.timeline h2::before {
+    content: "";
+    position: absolute;
+
+    width: 12px;
+    height: 12px;
+
+    border-radius: 50%;
+    background: #3b82f6;
+
+    left: -2.15rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.timeline h3 {
+    position: relative;
+    margin-left: 2rem;
+}
+
+.timeline h3::before {
+    content: "";
+    position: absolute;
+
+    left: -4.75rem;      /* Move further left */
+    top: 50%;
+
+    width: 4rem;         /* Longer branch */
+
+    height: 2px;
+    background: rgba(140,140,140,.35);
+}

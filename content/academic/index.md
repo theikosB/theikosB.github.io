@@ -16,6 +16,8 @@ showAuthorBadges: false
 
 ---
 
+<div class="timeline">
+
 ## 2025 
 
 ### **Academic Semester V**
@@ -49,7 +51,7 @@ showAuthorBadges: false
     - _"History of Time"_ by **Prof. Spenta Wadia (ICTS Bangalore)** on 23rd February at JN Planetarium Bangalore.
     - _"On The Trace Reconstruction Problem"_ by **Prof. Navin Kashyap (IISc.)** on 3rd February at ISI Bangalore.
     - _"On Fisher Information, Cramer- Rao bound in Quantum Probability"_ by **Prof. K B Sinha** on 15th January at ISI Bangalore.
----
+
 
 ## 2024
 ### **Winter**
@@ -77,11 +79,11 @@ showAuthorBadges: false
 - Started **2nd Semester** with subjects: _Probability II, Linear Algebra II, Real Analysis II, Introduction to Statistics & Data Computation and Numerical Computing_.
 
 
----
-
 ## 2023
 ### **Winter**
 - Attended **_"Undergraduate Directed Group Reading Project"_** organised by Math Club, ISI Bangalore on the topics of **"Combinatorial Game Theory", "Commutative Algebra"**. <a href="/research/#research-experience">Mentioned</a> under **"UDGRP Winter"**.
 ### **Academic Semester I**
 - Appeared for Simmon Marais Mathematical Competition 2023 (with my friend _Samadrita Bhattacharya_).
 - Started **1st Semester** with subjects: _Probability I, Linear Algebra I, Real Analysis I, Number Theory and Programming with C_.
+
+</div>
