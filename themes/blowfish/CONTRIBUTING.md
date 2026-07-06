@@ -1,5 +1,7 @@
 ## How to contribute to Blowfish
 
+All development occurs on the `main` branch and new PRs should be forked from here.
+
 ### Bugs & other issues
 
 #### Found a bug? 🐛
@@ -11,8 +13,7 @@
 #### Have a patch that fixes an issue?
 
 - Great! Open a new GitHub pull request with the patch.
-- All development occurs on the `dev` branch and new PRs should be forked from here.
-- The command `npm run example` can be used to test local changes using the example site.
+- The commands `npm run example`, `npm run example:core`, and `npm run example:production` can be used to test local changes using the example site.
 - Ensure the PR description clearly describes the problem and solution. Include the relevant issue number, if applicable.
 - **Before submitting**, check the [coding conventions](#coding-conventions) section below to learn more about coding and commit message expectations.
 
@@ -30,6 +31,17 @@
 - If you have a general question, these should be asked using [GitHub Discussions](https://github.com/nunocoracao/blowfish/discussions). Feel free to open a [new discussion](https://github.com/nunocoracao/blowfish/discussions/new) to ask your question using the "Q&A" category.
 - Be sure to check if your question has already been answered by searching [existing Q&A discussions](https://github.com/nunocoracao/blowfish/discussions/categories/q-a).
 
+### Breaking changes
+
+- We do not accept breaking changes unless they are strictly required to keep supporting the project (e.g. a dependency deprecating a feature we rely on).
+- Changes that would cause existing user customizations to silently stop working (such as renaming partial paths, removing config options, or changing template signatures) will be rejected.
+- If you're unsure whether your change is breaking, open a discussion first.
+
+### Pull request guidelines
+
+- Keep PRs focused on a single change. Do not bundle unrelated modifications (e.g. bug fix + version bump + new user entry) into the same PR.
+- PRs that mix multiple unrelated changes will be closed and the author will be asked to split them.
+
 ### Coding conventions
 
 - Indent using 2 spaces (soft tabs).
@@ -45,7 +57,7 @@ The project includes a Prettier config that helps to format code in line with th
 
 #### Commit message guidelines
 
-- Use [Gitmoji](https://gitmoji.dev) in commit messages to provide context.
+- Use [Gitmoji](https://gitmoji.dev) in PR messages to provide context.
 - Clearly describe the change with a short summary in the first 72 characters.
 - Place more detailed explanations in paragraphs below the summary, separated by a blank line.
 - Use imperative language (ie. "Fix bug", not "Fixed bug" or "Fixes bug").

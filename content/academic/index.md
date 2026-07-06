@@ -18,6 +18,12 @@ showAuthorBadges: false
 
 ## 2025 
 
+### **Academic Semester V**
+- **Talks/ Seminars Attended:**
+    - _"Tilings on Surfaces"_ by **Prof. Subhojoy Gupta (IISc, Bangalore)** on 26st October at ISI Bangalore.
+
+
+
 ### **Summer**
 - Gave a talk on **_Friendship Paradox_**. <a href="/research/#talks-given">Refer here</a> under **LIMIT Online Camp**.
 - Attended on  udgrp rand walk with present on ballot

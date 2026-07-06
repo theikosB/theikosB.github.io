@@ -117,3 +117,5 @@ cardViewScreenWidth = false
 [verification]
 
 [rssnext]
+
+customCSS = ["css/custom.css"]

@@ -1,41 +1,42 @@
 ---
-title: "Advanced Customisation"
+title: "高度なカスタマイズ"
 weight: 13
 draft: false
-description: "Learn how to build Blowfish manually."
+description: "Blowfishを手動でビルドする方法を学びましょう。"
 slug: "advanced-customisation"
 tags: ["advanced", "css", "docs"]
 series: ["Documentation"]
 series_order: 13
 ---
 
-There are many ways you can make advanced changes to Blowfish. Read below to learn more about what can be customised and the best way of achieving your desired result.
+Blowfish には高度な変更を加えるための多くの方法があります。カスタマイズできる内容や、希望する結果を得るための最良の方法については、以下をご覧ください。
 
-If you need further advice, post your questions on [GitHub Discussions](https://github.com/nunocoracao/blowfish/discussions).
+さらにアドバイスが必要な場合は、 [GitHub Discussions](https://github.com/nunocoracao/blowfish/discussions) に質問を投稿してください。
 
-## Hugo project structure
+## Hugo プロジェクトの構造
 
-Before leaping into it, first a quick note about [Hugo project structure](https://gohugo.io/getting-started/directory-structure/) and best practices for managing your content and theme customisations.
+始める前に、[Hugo プロジェクトの構造](https://gohugo.io/getting-started/directory-structure/)と、コンテンツとテーマのカスタマイズを管理するためのベストプラクティスについて簡単に説明します。
 
 {{< alert >}}
-**In summary:** Never directly edit the theme files. Only make customisations in your Hugo project's sub-directories, not in the themes directory itself.
+**簡単に言うと:** テーマファイルを直接編集してはいけません。カスタマイズは、テーマディレクトリ自体ではなく、Hugoプロジェクトのサブディレクトリ内でのみ行います。
 {{< /alert >}}
 
-Blowfish is built to take advantage of all the standard Hugo practices. It is designed to allow all aspects of the theme to be customised and overridden without changing any of the core theme files. This allows for a seamless upgrade experience while giving you total control over the look and feel of your website.
 
-In order to achieve this, you should never manually adjust any of the theme files directly. Whether you install using Hugo modules, as a git submodule or manually include the theme in your `themes/` directory, you should always leave these files intact.
+Blowfish は、Hugo の標準的な実装をすべて活用できるように構築されています。コアのテーマファイルを変更することなく、テーマのあらゆる側面をカスタマイズしたりオーバーライドしたりできるように設計されています。これにより、ウェブサイトの見た目を完全にコントロールしながら、シームレスな改善が可能になります。
 
-The correct way to adjust any theme behaviour is by overriding files using Hugo's powerful [file lookup order](https://gohugo.io/templates/lookup-order/). In summary, the lookup order ensures any files you include in your project directory will automatically take precedence over any theme files.
+そのために、テーマファイルを手動で直接編集するのは避けてください。Hugo モジュール、git サブモジュール、または手動でテーマを `themes/` ディレクトリに格納するなど、どのインストール方法を使用する場合でも、これらのファイルは常にそのままにしておく必要があります。
 
-For example, if you wanted to override the main article template in Blowfish, you can simply create your own `layouts/_default/single.html` file and place it in the root of your project. This file will then override the `single.html` from the theme without ever changing the theme itself. This works for any theme files - HTML templates, partials, shortcodes, config files, data, assets, etc.
+テーマの動作を調整する正しい方法は、Hugo の強力な[ファイル優先順位](https://gohugo.io/templates/lookup-order/)を使用してファイルをオーバーライドすることです。要約すると、優先順位により、プロジェクトディレクトリに含めたファイルは、すべてのテーマファイルよりも自動的に優先されます。
 
-As long as you follow this simple practice, you will always be able to update the theme (or test different theme versions) without worrying that you will lose any of your custom changes.
+たとえば、Blowfish のメイン記事テンプレートをオーバーライドしたい場合は、独自の `layouts/_default/single.html` ファイルを作成してプロジェクトのルートに配置するだけです。このファイルは、テーマ自体を変更することなく、テーマの `single.html` をオーバーライドします。これは、HTML テンプレート、パーシャル、ショートコード、設定ファイル、データ、アセットなど、すべてのテーマファイルで機能します。
 
-## Change image optimization settings
+この簡単なプラクティスに従う限り、カスタム変更が失われることを心配することなく、いつでもテーマを更新したり（または異なるテーマバージョンをテストしたり）することができます。
 
-Hugo has various builtin methods to resize, crop and optimize images.
+## 画像最適化設定の変更
 
-As an example - in `layouts/partials/article-link/card.html`, you have the following code:
+Hugo には、画像のサイズ変更、トリミング、最適化を行うためのさまざまな組み込みメソッドがあります。
+
+例として - `layouts/partials/article-link/card.html` には、次のコードがあります。
 
 ```go
 {{ with .Resize "600x" }}
@@ -43,26 +44,26 @@ As an example - in `layouts/partials/article-link/card.html`, you have the follo
 {{ end }}
 ```
 
-The default behavior of Hugo here is to resize the image to 600px keeping the ratio.
+ここでの Hugo のデフォルトの動作は、比率を維持しながら画像のサイズを 600px に変更することです。
 
-It is worth noting here that default image configurations such as [anchor point](https://gohugo.io/content-management/image-processing/#anchor) can also be set in your [site configuration](https://gohugo.io/content-management/image-processing/#processing-options) as well as in the template itself.
+ここで、[アンカーポイント](https://gohugo.io/content-management/image-processing/#anchor)のようなデフォルトの画像設定は、テンプレート自体だけでなく、[サイト設定](https://gohugo.io/content-management/image-processing/#processing-options)でも設定できることに注意してください。
 
-See the [Hugo docs on image processing](https://gohugo.io/content-management/image-processing/#image-processing-methods) for more info.
+詳細については、[画像処理に関する Hugo ドキュメント](https://gohugo.io/content-management/image-processing/#image-processing-methods)を参照してください。
 
-## Colour schemes
+## カラースキーム
 
-Blowfish ships with a number of colour schemes out of the box. To change the basic colour scheme, you can set the `colorScheme` theme parameter. Refer to the [Getting Started]({{< ref "getting-started#colour-schemes" >}}) section to learn more about the built-in schemes.
+Blowfish には、すぐに使用できる多数のカラースキームが付属しています。基本的なカラースキームを変更するには、`colorScheme` テーマパラメータを設定します。 組み込みのスキームの詳細については、[はじめに]({{< ref "getting-started#カラースキーム" >}})セクションを参照してください。
 
-In addition to the default schemes, you can also create your own and re-style the entire website to your liking. Schemes are created by by placing a `<scheme-name>.css` file in the `assets/css/schemes/` folder. Once the file is created, simply refer to it by name in the theme configuration.
+デフォルトのスキームに加えて、独自のスキームを作成し、ウェブサイト全体を好みに合わせて再スタイルすることもできます。 スキームは、`assets/css/schemes/` フォルダに `<scheme-name>.css` ファイルを配置することで作成されます。ファイルが作成されたら、テーマ設定で名前で参照するだけです。
 
 {{< alert "github">}}
-**Note:** generating these files manually can be hard, I've built a `nodejs` terminal tool to help with that, [Fugu](https://github.com/nunocoracao/fugu). In a nutshell, you pass the main three `hex` values of your color palette and the program will output a css file that can be imported directly into Blowfish.
+**注:** これらのファイルを手動で生成するのは難しい場合があるため、それを支援する `nodejs` ターミナルツール [Fugu](https://github.com/nunocoracao/fugu) を作成しました。これは、カラーパレットの主要な3つの `hex` 値を渡すと、プログラムは Blowfish に直接インポートできる css ファイルを出力します。
 {{< /alert >}}
 
 
-Blowfish defines a three-colour palette that is used throughout the theme. The three colours are defined as `neutral`, `primary` and `secondary` variants, each containing ten shades of colour.
+Blowfish は、テーマ全体で使用される3色のパレットを定義します。3色は `neutral`、`primary`、`secondary` のバリエーションとして定義され、それぞれに10の色合いが含まれています。
 
-Due to the way Tailwind CSS 3.0 calculates colour values with opacity, the colours specified in the scheme need to [conform to a particular format](https://github.com/adamwathan/tailwind-css-variable-text-opacity-demo) by providing the red, green and blue colour values.
+Tailwind CSS 3.0 が不透明度で色の値を計算する方式のため、スキームで指定された色は、赤、緑、青の色の値を提供することにより、[特定の形式に準拠](https://github.com/adamwathan/tailwind-css-variable-text-opacity-demo)する必要があります。
 
 ```css
 :root {
@@ -70,19 +71,19 @@ Due to the way Tailwind CSS 3.0 calculates colour values with opacity, the colou
 }
 ```
 
-This example defines a CSS variable for the `primary-500` colour with a red value of `139`, green value of `92` and blue value of `246`.
+この例では、赤の値が `139`、緑の値が `92`、青の値が `246` の `primary-500` カラーの CSS 変数を定義しています。
 
-Use one of the existing theme stylesheets as a template. You are free to define your own colours, but for some inspiration, check out the official [Tailwind colour palette reference](https://tailwindcss.com/docs/customizing-colors#color-palette-reference).
+既存のテーマスタイルシートの1つをテンプレートとして使用します。独自の色を自由に定義できますが、インスピレーションが必要な場合は、公式の [Tailwind カラーパレットリファレンス](https://tailwindcss.com/docs/customizing-colors#color-palette-reference)を確認してください。
 
-## Overriding the stylesheet
+## スタイルシートのオーバーライド
 
-Sometimes you need to add a custom style to style your own HTML elements. Blowfish provides for this scenario by allowing you to override the default styles in your own CSS stylesheet. Simply create a `custom.css` file in your project's `assets/css/` folder.
+独自の HTML 要素をスタイルするために、カスタムスタイルを追加する必要がある場合があります。Blowfish は、独自の CSS スタイルシートでデフォルトのスタイルをオーバーライドできるようにすることで、このシナリオに対応します。プロジェクトの `assets/css/` フォルダに `custom.css` ファイルを作成するだけです。
 
-The `custom.css` file will be minified by Hugo and loaded automatically after all the other theme styles which means anything in your custom file will take precedence over the defaults.
+`custom.css` ファイルは Hugo によって縮小され、他のすべてのテーマスタイルの後に自動的にロードされます。つまり、カスタムファイルの内容はデフォルトよりも優先されます。
 
-### Using additional fonts
+### 追加フォントの使用
 
-Blowfish allows you to easily change the font for your site. After creating a `custom.css` file in your project's `assets/css/` folder, place you font file inside a `fonts` folder within the `static` root folder.
+Blowfishでは、サイトのフォントを簡単に変更することができます。プロジェクトの`assets/css/`フォルダ内に`custom.css`ファイルを作成した後、`static`ルートフォルダ内の`fonts`フォルダ内にフォントファイルを配置するだけです。
 
 ```shell
 .
@@ -96,7 +97,7 @@ Blowfish allows you to easily change the font for your site. After creating a `c
 
 ```
 
-This makes the font available to the website. Now, the font can just import it in your `custom.css` and replaced wherever you see fit. The example below shows what replacing the font for the entire `html` would look like.
+これにより、フォントをウェブサイトで使用できるようになります。すると、フォントを `custom.css` にインポートし、適切と思われる場所で置き換えることができます。以下の例は、`html` 全体のフォントを置き換える方法を示しています。
 
 ```css
 @font-face {
@@ -109,34 +110,64 @@ html {
 }
 ```
 
-### Adjusting the font size
+### フォントサイズの調整
 
-Changing the font size of your website is one example of overriding the default stylesheet. Blowfish makes this simple as it uses scaled font sizes throughout the theme which are derived from the base HTML font size. By default, Tailwind sets the default size to `12pt`, but it can be changed to whatever value you prefer.
+ウェブサイトのフォントサイズを変更することは、デフォルトのスタイルシートをオーバーライドする1つの例です。Blowfish は、テーマ全体で基本 HTML フォントサイズから派生したスケーリングされたフォントサイズを使用するため、これを簡単にします。デフォルトでは、Tailwind はデフォルトサイズを `12pt` に設定していますが、任意の値に変更できます。
 
-Create a `custom.css` file using the [instructions above]({{< ref "#overriding-the-stylesheet" >}}) and add the following CSS declaration:
+[上記の手順]({{< ref "#スタイルシートのオーバーライド" >}}) を使用して `custom.css` ファイルを作成し、次の CSS 宣言を追加します。
 
 ```css
-/* Increase the default font size */
+/* デフォルトのフォントサイズを大きくする */
 html {
   font-size: 13pt;
 }
 ```
 
-Simply by changing this one value, all the font sizes on your website will be adjusted to match this new size. Therefore, to increase the overall font sizes used, make the value greater than `12pt`. Similarly, to decrease the font sizes, make the value less than `12pt`.
+この1つの値を変更するだけで、ウェブサイトのすべてのフォントサイズがこの新しいサイズに合わせて調整されます。なので、使用されるフォントサイズ全体を大きくするには、値を `12pt` より大きくすれば良いです。同様に、フォントサイズを小さくするには、値を `12pt` より小さくすれば良いです。
 
-## Building the theme CSS from source
+### シンタックスハイライトテーマの変更
 
-If you'd like to make a major change, you can take advantage of Tailwind CSS's JIT compiler and rebuild the entire theme CSS from scratch. This is useful if you want to adjust the Tailwind configuration or add extra Tailwind classes to the main stylesheet.
+構文ハイライトテーマを変更するには、`assets/css/custom.css` を作成し、次の内容を追加してください：
+
+```css
+.chroma,
+.chroma *,
+.chroma:is(.dark *),
+.chroma:is(.dark *) * {
+  color: unset;
+  font-weight: unset;
+  font-style: unset;
+}
+```
+
+これによりデフォルトの Chroma スタイルがクリアされます。次に `hugo gen chromastyles` コマンドで CSS ファイルに Chroma スタイルを組み込みます:
+
+```sh
+# Mac/Linux
+(echo 'html:not(.dark) {'; hugo gen chromastyles --style=emacs; echo '}') >> assets/css/custom.css
+(echo 'html.dark {'; hugo gen chromastyles --style=evergarden; echo '}') >> assets/css/custom.css
+
+# Windows PowerShell
+# このコマンドは CMD では実行できず PowerShell で実行する必要がある
+@("html:not(.dark) {"; (hugo gen chromastyles --style=emacs); "}") | Add-Content -Path "assets/css/custom.css"
+@("html.dark {"; (hugo gen chromastyles --style=evergarden); "}") | Add-Content -Path "assets/css/custom.css"
+```
+
+すべての利用可能なスタイルは、[Hugo のドキュメント](https://gohugo.io/quick-reference/syntax-highlighting-styles/#styles)で確認できます。
+
+## ソースからテーマ CSS をビルドする
+
+大幅な変更を加えたい場合は、Tailwind CSS の JIT コンパイラを利用して、テーマ CSS 全体を最初から再構築できます。これは、Tailwind 設定を調整したり、メインスタイルシートに追加の Tailwind クラスを追加したりする場合に便利です。
 
 {{< alert >}}
-**Note:** Building the theme manually is intended for advanced users.
+**注:** テーマの手動ビルドは上級者向けです。
 {{< /alert >}}
 
-Let's step through how building the Tailwind CSS works.
+Tailwind CSS のビルド方法を順番に説明します。
 
-### Tailwind configuration
+### Tailwind 設定
 
-In order to generate a CSS file that only contains the Tailwind classes that are actually being used the JIT compiler needs to scan through all the HTML templates and Markdown content files to check which styles are present in the markup. The compiler does this by looking at the `tailwind.config.js` file which is included in the root of the theme directory:
+実際に使用されている Tailwind クラスのみを含む CSS ファイルを生成するために、JIT コンパイラはすべての HTML テンプレートと Markdown コンテンツファイルをスキャンして、マークアップにどのスタイルが存在するかを確認する必要があります。コンパイラは、テーマディレクトリのルートに含まれる `tailwind.config.js` ファイルを調べてこれを行います。
 
 ```js
 // themes/blowfish/tailwind.config.js
@@ -149,31 +180,31 @@ module.exports = {
     "./themes/blowfish/content/**/*.{html,md}",
   ],
 
-  // and more...
+  // その他...
 };
 ```
 
-This default configuration has been included with these content paths so that you can easily generate your own CSS file without needing to modify it, provided you follow a particular project structure. Namely, **you have to include Blowfish in your project as a subdirectory at `themes/blowfish/`**. This means you cannot easily use Hugo Modules to install the theme and you must go down either the git submodule (recommended) or manual install routes. The [Installation docs]({{< ref "installation" >}}) explain how to install the theme using either of these methods.
+このデフォルト設定には、これらのコンテンツパスが含まれているため、特定のプロジェクト構造に従う限り、変更することなく独自の CSS ファイルを簡単に生成できます。つまり、**Blowfish を `themes/blowfish/` のサブディレクトリとしてプロジェクトに含める必要があります**。これは、Hugo Modules を使用してテーマを簡単にインストールできないことを意味し、git サブモジュール（推奨）または手動インストールルートのいずれかを選択する必要があります。[インストールドキュメント]({{< ref "installation" >}}) では、これらのいずれかの方法を使用してテーマをインストールする方法について説明しています。
 
-### Project structure
+### プロジェクト構造
 
-In order to take advantage of the default configuration, your project should look something like this...
+デフォルト設定を利用するために、プロジェクトは次のようになります...
 
 ```shell
 .
 ├── assets
 │   └── css
 │       └── compiled
-│           └── main.css  # this is the file we will generate
-├── config  # site config
+│           └── main.css  # これが生成するファイル
+├── config  # サイト設定
 │   └── _default
-├── content  # site content
+├── content  # サイトコンテンツ
 │   ├── _index.md
 │   ├── projects
 │   │   └── _index.md
 │   └── blog
 │       └── _index.md
-├── layouts  # custom layouts for your site
+├── layouts  # サイトのカスタムレイアウト
 │   ├── partials
 │   │   └── extend-article-link/simple.html
 │   ├── projects
@@ -181,38 +212,38 @@ In order to take advantage of the default configuration, your project should loo
 │   └── shortcodes
 │       └── disclaimer.html
 └── themes
-    └── blowfish  # git submodule or manual theme install
+    └── blowfish  # git サブモジュールまたは手動テーマインストール
 ```
 
-This example structure adds a new `projects` content type with its own custom layout along with a custom shortcode and extended partial. Provided the project follows this structure, all that's required is to recompile the `main.css` file.
+この例の構造では、独自のカスタムレイアウトを持つ新しい `projects` コンテンツタイプと、カスタムショートコードと拡張パーシャルが追加されています。プロジェクトがこの構造に従っている場合、必要なのは `main.css` ファイルを再コンパイルすることだけです。
 
-### Install dependencies
+### 依存関係のインストール
 
-In order for this to work you'll need to change into the `themes/blowfish/` directory and install the project dependencies. You'll need [npm](https://docs.npmjs.com/cli/v7/configuring-npm/install) on your local machine for this step.
+これが機能するには、`themes/blowfish/` ディレクトリに移動し、プロジェクトの依存関係をインストールする必要があります。この手順では、ローカルマシンに [npm](https://docs.npmjs.com/cli/v7/configuring-npm/install) が必要になります。
 
 ```shell
 cd themes/blowfish
 npm install
 ```
 
-### Run the Tailwind compiler
+### Tailwind コンパイラを実行する
 
-With the dependencies installed all that's left is to use [Tailwind CLI](https://v2.tailwindcss.com/docs/installation#using-tailwind-cli) to invoke the JIT compiler. Navigate back to the root of your Hugo project and issue the following command:
+依存関係がインストールされたら、あとは [Tailwind CLI](https://tailwindcss.com/docs/installation/tailwind-cli) を使用して JIT コンパイラを呼び出すだけです。Hugo プロジェクトのルートに戻り、次のコマンドを実行します。
 
 ```shell
 cd ../..
-./themes/blowfish/node_modules/tailwindcss/lib/cli.js -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit
+node ./themes/blowfish/node_modules/@tailwindcss/cli/dist/index.mjs -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit
 ```
 
-It's a bit of an ugly command due to the paths involved but essentially you're calling Tailwind CLI and passing it the location of the Tailwind config file (the one we looked at above), where to find the theme's `main.css` file and then where you want the compiled CSS file to be placed (it's going into the `assets/css/compiled/` folder of your Hugo project).
+関係するパスのため少し見苦しいコマンドですが、基本的に Tailwind CLI を呼び出し、Tailwind 設定ファイルの場所（上で見たもの）、テーマの `main.css` ファイルの場所、そしてコンパイル済み CSS ファイルを配置する場所（Hugo プロジェクトの `assets/css/compiled/` フォルダ）を渡しています。
 
-The config file will automatically inspect all the content and layouts in your project as well as all those in the theme and build a new CSS file that contains all the CSS required for your website. Due to the way Hugo handles file hierarchy, this file in your project will now automatically override the one that comes with the theme.
+設定ファイルは、プロジェクト内のすべてのコンテンツとレイアウト、およびテーマ内のすべてのコンテンツとレイアウトを自動的にスキャンし、ウェブサイトに必要なすべての CSS を含む新しい CSS ファイルを作ります。Hugo のファイル階層を処理する方法のため、プロジェクト内のこのファイルは、テーマに付属のファイルを自動的にオーバーライドするようになります。
 
-Each time you make a change to your layouts and need new Tailwind CSS styles, you can simply re-run the command and generate the new CSS file. You can also add `-w` to the end of the command to run the JIT compiler in watch mode.
+レイアウトに変更を加え、新しい Tailwind CSS スタイルが必要になるたびに、コマンドを再実行して新しい CSS ファイルを生成するだけです。 コマンドの最後に `-w` を追加して、JIT コンパイラをウォッチモードで実行することもできます。
 
-### Make a build script
+### ビルドスクリプトを作成する
 
-To fully complete this solution, you can simplify this whole process by adding aliases for these commands, or do what I do and add a `package.json` to the root of your project which contains the necessary scripts...
+このソリューションを完全に完了するには、これらのコマンドのエイリアスを追加するか、私が行っているように、必要なスクリプトを含む `package.json` をプロジェクトのルートに追加することで、このプロセス全体を簡素化できます...
 
 ```js
 // package.json
@@ -223,13 +254,13 @@ To fully complete this solution, you can simplify this whole process by adding a
   "description": "",
   "scripts": {
     "server": "hugo server -b http://localhost -p 8000",
-    "dev": "NODE_ENV=development ./themes/blowfish/node_modules/tailwindcss/lib/cli.js -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
-    "build": "NODE_ENV=production ./themes/blowfish/node_modules/tailwindcss/lib/cli.js -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
+    "dev": cross-env "NODE_ENV=development ./themes/blowfish/node_modules/@tailwindcss/cli/dist/index.mjs -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
+    "build": cross-env "NODE_ENV=production ./themes/blowfish/node_modules/@tailwindcss/cli/dist/index.mjs -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
   },
-  // and more...
+  // その他...
 }
 ```
 
-Now when you want to work on designing your site, you can invoke `npm run dev` and the compiler will run in watch mode. When you're ready to deploy, run `npm run build` and you'll get a clean Tailwind CSS build.
+これで、サイトの設計に取り組むときは、 `npm run dev` を呼び出すと、コンパイラがウォッチモードで実行されます。デプロイの準備ができたら、`npm run build` を実行すると、クリーンな Tailwind CSS ビルドが得られます。
 
-🙋‍♀️ If you need help, feel free to ask a question on [GitHub Discussions](https://github.com/nunocoracao/blowfish/discussions).
+🙋‍♀️ ご不明な点がありましたら、[GitHub Discussions](https://github.com/nunocoracao/blowfish/discussions) で気軽に質問してください。

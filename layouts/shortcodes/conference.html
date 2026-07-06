@@ -1,0 +1,35 @@
+<div class="conference-entry">
+    <div class="conference-title">
+        {{ .Get "title" }}
+        {{ with .Get "type" }}
+            <span class="conference-badge">{{ . }}</span>
+        {{ end }}
+    </div>
+
+    <div class="conference-meta">
+        {{ with .Get "venue" }}<span>{{ . }}</span>{{ end }}
+        {{ if and (.Get "venue") (.Get "date") }}<span aria-hidden="true"> &bull; </span>{{ end }}
+        {{ with .Get "date" }}<span>{{ . }}</span>{{ end }}
+    </div>
+
+    {{ with .Get "organizers" }}
+        <div class="conference-description">
+            Hosted jointly by {{ . }}.
+        </div>
+    {{ end }}
+
+    {{ with .Inner }}
+        <div class="conference-description">
+            {{ . | markdownify }}
+        </div>
+    {{ end }}
+
+    {{ with .Get "speakers" }}
+        <div class="conference-speakers">
+            <strong>Speakers:</strong>
+            {{ range split . "|" }}
+                <span class="conference-speaker">{{ . }}</span>
+            {{ end }}
+        </div>
+    {{ end }}
+</div>

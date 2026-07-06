@@ -1,0 +1,45 @@
+<div class="publication">
+
+    <div class="publication-title">
+        {{ .Get "title" }}
+    </div>
+
+    <div class="publication-authors">
+        {{ .Get "authors" }}
+    </div>
+
+    <div class="publication-venue">
+
+        {{ .Get "venue" }}
+
+        {{ with .Get "status" }}
+            <span class="publication-status">{{ . }}</span>
+        {{ end }}
+
+        • {{ .Get "year" }}
+
+    </div>
+
+    <div class="publication-links">
+
+        {{ with .Get "preprint" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+            📄 Preprint
+        </a>
+        {{ end }}
+
+        {{ with .Get "researchgate" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+            📚 ResearchGate
+        </a>
+        {{ end }}
+
+        {{ with .Get "doi" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+            🔗 DOI
+        </a>
+        {{ end }}
+
+    </div>
+
+</div>

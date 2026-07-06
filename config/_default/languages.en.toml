@@ -1,6 +1,6 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+locale = "en-US"
+label = "English"
 weight = 1
 title = "The DodoSite"
 
@@ -14,7 +14,7 @@ secondaryLogo = "img/logo.png"
 
 [params.author]
 name = "Daibik Barik"
-image = "img/Daibik-final.png"
+image = "img/My Ghibli.png"
 imageQuality = 96
 headline = "Student of Mathematics (_read_ creativity)"
 description = "I'm Daibik Barik, this website is meant to act as a portflio and a blog!"

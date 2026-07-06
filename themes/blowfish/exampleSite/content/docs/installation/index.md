@@ -22,7 +22,7 @@ These instructions will get you up and running using Hugo and Blowfish from a co
 If you haven't used Hugo before, you will need to [install it onto your local machine](https://gohugo.io/getting-started/installing). You can check if it's already installed by running the command `hugo version`.
 
 {{< alert >}}
-Make sure you are using **Hugo version 0.87.0** or later as the theme takes advantage of some of the latest Hugo features.
+Make sure you are using **Hugo version 0.158.0** or later as the theme takes advantage of some of the latest Hugo features.
 {{< /alert >}}
 
 You can find detailed installation instructions for your platform in the [Hugo docs](https://gohugo.io/getting-started/installing).
@@ -137,7 +137,7 @@ In the root folder of your website, delete the `hugo.toml` file that was generat
 
 Depending on how you installed the theme you will find the theme config files in different places:
 
-- **Hugo Modules:** In the Hugo cache directory, or [download a copy](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nunocoracao/blowfish/tree/main/config/_default) from GitHub
+- **Hugo Modules:** In the Hugo cache directory, or [download a copy](https://github.com/nunocoracao/blowfish/releases/latest/download/config-default.zip) from GitHub
 - **Git submodule or Manual install:** `themes/blowfish/config/_default`
 
 Once you've copied the files, your config folder should look like this:

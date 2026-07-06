@@ -4,7 +4,7 @@ summary: "Just one year ago, I created Blowfish, a Hugo theme crafted to build m
 description: "Just one year ago, I created Blowfish, a Hugo theme crafted to build my unique vision for my personal homepage. I also decided to make it an open-source project. Fast-forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes."
 categories: ["Open-Source", "Blowfish"]
 tags: ["tutorial", "blowfish", "hugo"]
-externalUrl: "https://nunocoracao.com/posts/202310-blowfish-tutorial/"
+externalUrl: "https://n9o.xyz/posts/202310-blowfish-tutorial/"
 date: 2023-10-04
 draft: false
 showauthor: false
@@ -113,11 +113,11 @@ Next step, let's install Blowfish using `git submodules` which will make it easi
 git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
 ```
 
-Next, create the following folder structure at the root of your code directory - `config/_default/`. Now you will need to download [these files](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2Fnunocoracao%2Fblowfish%2Ftree%2Fmain%2Fconfig%2F%5C_default) and place them in _\_default_ folder you just created. The final structure should look something like this.
+Next, create the following folder structure at the root of your code directory - `config/_default/`. Now you will need to download [these files](https://github.com/nunocoracao/blowfish/releases/latest/download/config-default.zip) and place them in _\_default_ folder you just created. The final structure should look something like this.
 
 ```md
 config/_default/
-├─ config.toml
+├─ hugo.toml
 ├─ languages.en.toml
 ├─ markup.toml
 ├─ menus.en.toml
@@ -126,7 +126,7 @@ config/_default/
 ```
 
 
-Open the **config.toml** and uncomment the line **theme = "blowfish”** and you are ready to go. Try the running the site again and check the result at _[https://localhost:1313](https://localhost:1313)_
+Open the **hugo.toml** and uncomment the line **theme = "blowfish”** and you are ready to go. Try the running the site again and check the result at _[https://localhost:1313](https://localhost:1313)_
 
 ```bash
 hugo server
@@ -275,7 +275,7 @@ The only thing missing is to ship your site. I will be using [Firebase](https://
 
 Let’s install firebase’s CLI - if not on Mac check [install instructions on Firebase](https://firebase.google.com/docs/cli).
 ```bash
-brew install firebase
+brew install firebase-cli
 ```
 
 Now log in and init firebase hosting for the project.

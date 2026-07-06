@@ -22,12 +22,43 @@ if (document.documentElement.getAttribute("data-auto-appearance") === "true") {
   });
 }
 
+// Mermaid dark mode support
+var updateMermaidTheme = () => {
+  if (typeof mermaid !== 'undefined') {
+    const isDark = document.documentElement.classList.contains("dark");
+
+    const mermaids = document.querySelectorAll('pre.mermaid');
+    mermaids.forEach(e => {
+      if (e.getAttribute('data-processed')) {
+        // Already rendered, clean the processed attributes
+        e.removeAttribute('data-processed');
+        // Replace the rendered HTML with the stored text
+        e.innerHTML = e.getAttribute('data-graph');
+      } else {
+        // First time, store the text
+        e.setAttribute('data-graph', e.textContent);
+      }
+    });
+
+    if (isDark) {
+      initMermaidDark();
+      mermaid.run();
+    } else {
+      initMermaidLight();
+      mermaid.run();
+    }
+  }
+}
+
 window.addEventListener("DOMContentLoaded", (event) => {
   const switcher = document.getElementById("appearance-switcher");
   const switcherMobile = document.getElementById("appearance-switcher-mobile");
 
   updateMeta();
   this.updateLogo?.(getTargetAppearance());
+
+  // Initialize mermaid theme on page load
+  updateMermaidTheme();
 
   if (switcher) {
     switcher.addEventListener("click", () => {
@@ -38,6 +69,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         targetAppearance
       );
       updateMeta();
+      updateMermaidTheme();
       this.updateLogo?.(targetAppearance);
     });
     switcher.addEventListener("contextmenu", (event) => {
@@ -54,6 +86,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         targetAppearance
       );
       updateMeta();
+      updateMermaidTheme();
       this.updateLogo?.(targetAppearance);
     });
     switcherMobile.addEventListener("contextmenu", (event) => {
@@ -76,14 +109,24 @@ var updateMeta = () => {
 {{ $secondaryLogo := resources.Get .Site.Params.SecondaryLogo }}
 {{ if and ($primaryLogo) ($secondaryLogo) }}
 var updateLogo = (targetAppearance) => {
-  var elems;
-  elems = document.querySelectorAll("img.logo")
+  var imgElems = document.querySelectorAll("img.logo");
+  var logoContainers = document.querySelectorAll("span.logo");
+  
   targetLogoPath = 
     targetAppearance == "{{ .Site.Params.DefaultAppearance }}" ?
     "{{ $primaryLogo.RelPermalink }}" : "{{ $secondaryLogo.RelPermalink }}"
-  for (const elem of elems) {
+  for (const elem of imgElems) {
     elem.setAttribute("src", targetLogoPath)
   }
+
+  {{ if eq $primaryLogo.MediaType.SubType "svg" }}
+  targetContent = 
+    targetAppearance == "{{ .Site.Params.DefaultAppearance }}" ?
+    `{{ $primaryLogo.Content | safeHTML }}` : `{{ $secondaryLogo.Content | safeHTML }}`
+  for (const container of logoContainers) {
+    container.innerHTML = targetContent;
+  }
+  {{ end }}
 }
 {{ end }}
 {{- end }}

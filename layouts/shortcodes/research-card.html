@@ -1,0 +1,106 @@
+<details class="research-card">
+
+<summary class="research-summary">
+
+<div class="research-header">
+
+<div>
+
+<h3>{{ .Get "title" }}</h3>
+
+<p class="research-subtitle">
+
+{{ .Get "subtitle" }}
+
+</p>
+
+</div>
+
+<span class="research-toggle"></span>
+
+</div>
+
+<div class="tag-container">
+
+{{ range split (.Get "tags") "|" }}
+
+<span class="research-tag">{{ . }}</span>
+
+{{ end }}
+
+</div>
+
+</summary>
+
+<div class="research-content">
+
+{{ with .Get "mentor" }}
+
+<h4>Mentor</h4>
+
+<p>{{ . }}</p>
+
+{{ end }}
+
+{{ with .Get "mentors" }}
+
+<h4>Mentors</h4>
+
+<p>{{ . }}</p>
+
+{{ end }}
+
+{{ with .Get "topic" }}
+
+<h4>Research Topic</h4>
+
+<p>{{ . }}</p>
+
+{{ end }}
+
+<h4>Overview</h4>
+
+{{ .Inner | markdownify }}
+
+<div class="resource-buttons">
+
+{{ with .Get "paper" }}
+<a class="resource-button" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+📄 Paper
+</a>
+{{ end }}
+
+{{ with .Get "preprint" }}
+<a class="resource-button" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+📄 Preprint
+</a>
+{{ end }}
+
+{{ with .Get "report" }}
+<a class="resource-button" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+📂 Report
+</a>
+{{ end }}
+
+{{ with .Get "notes" }}
+<a class="resource-button" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+📝 Notes
+</a>
+{{ end }}
+
+{{ with .Get "slides" }}
+<a class="resource-button" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+📑 Slides
+</a>
+{{ end }}
+
+{{ with .Get "certificate" }}
+<a class="resource-button" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+🏆 Certificate
+</a>
+{{ end }}
+
+</div>
+</div>
+
+</details>

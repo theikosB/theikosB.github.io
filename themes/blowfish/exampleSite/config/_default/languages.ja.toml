@@ -1,6 +1,6 @@
-languageCode = "ja"
-languageName = "日本語"
-weight = 3
+locale = "ja"
+label = "日本語"
+weight = 8
 title = "Blowfish"
 
 [params]
@@ -13,6 +13,7 @@ title = "Blowfish"
 
 [params.author]
   name = "Blowfish"
+  email = "nuno@n9o.xyz"
   image = "img/blowfish_logo.png"
   headline = "強力で、軽量な Hugo のテーマです。"
   bio = "強力で、軽量な Hugo のテーマです。"

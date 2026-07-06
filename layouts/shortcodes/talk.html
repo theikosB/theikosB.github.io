@@ -1,0 +1,64 @@
+<div class="talk-entry">
+
+    <div class="talk-header">
+
+        <div class="talk-title">
+
+            {{ .Get "title" }}
+
+        </div>
+
+        <div class="talk-meta">
+
+            {{ .Get "venue" }} • {{ .Get "date" }}
+
+        </div>
+
+    </div>
+
+    <p class="talk-description">
+
+        {{ .Inner }}
+
+    </p>
+
+    <div class="tag-container">
+
+        {{ range split (.Get "tags") "|" }}
+            <span class="research-tag">{{ . }}</span>
+        {{ end }}
+
+    </div>
+
+    <div class="resource-buttons">
+
+    {{ with .Get "notes" }}
+    <a class="resource-button"
+       href="{{ . }}"
+       target="_blank"
+       rel="noopener noreferrer">
+        📄 Notes
+    </a>
+    {{ end }}
+
+    {{ with .Get "slides" }}
+    <a class="resource-button"
+       href="{{ . }}"
+       target="_blank"
+       rel="noopener noreferrer">
+        📑 Slides
+    </a>
+    {{ end }}
+
+    {{ with .Get "video" }}
+    <a class="resource-button"
+       href="{{ . }}"
+       target="_blank"
+       rel="noopener noreferrer">
+        ▶ Recording
+    </a>
+    {{ end }}
+
+    </div>
+
+</div>
