@@ -1,0 +1,27 @@
+<label class="interest-card">
+
+    <input type="checkbox">
+
+    <div class="interest-card-inner">
+
+        <div class="interest-card-front">
+
+            <div class="interest-card-icon">
+                {{ .Get "icon" }}
+            </div>
+
+            <div class="interest-card-title">
+                {{ .Get "title" }}
+            </div>
+
+        </div>
+
+        <div class="interest-card-back">
+
+            {{ .Inner | markdownify }}
+
+        </div>
+
+    </div>
+
+</label>

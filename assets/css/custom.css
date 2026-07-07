@@ -656,3 +656,477 @@
     height: 2px;
     background: rgba(140,140,140,.35);
 }
+
+
+/* ==========================================
+   EDUCATION
+========================================== */
+
+.education-card{
+    margin:1.5rem 0;
+    border:1px solid rgba(120,120,120,.18);
+    border-radius:14px;
+    overflow:hidden;
+    background:rgba(255,255,255,.025);
+}
+
+.education-card summary{
+    list-style:none;
+    cursor:pointer;
+    padding:1.2rem 1.4rem;
+}
+
+.education-card summary::-webkit-details-marker{
+    display:none;
+}
+
+.education-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    width:100%;
+    gap:1rem;
+}
+
+.education-title{
+    font-size:1.2rem;
+    font-weight:700;
+    margin-bottom:.2rem;
+}
+
+.education-degree{
+    opacity:.75;
+    font-size:.95rem;
+}
+
+.education-duration{
+    font-size:.9rem;
+    opacity:.7;
+    white-space:nowrap;
+}
+
+.education-content{
+    padding:0 1.4rem 1.4rem;
+    border-top:1px solid rgba(120,120,120,.12);
+}
+
+.education-content h3{
+    margin-top:1.2rem;
+    margin-bottom:.5rem;
+    font-size:1rem;
+}
+
+.education-content p{
+    line-height:1.7;
+    text-align:justify;
+}
+
+.education-card summary{
+    list-style:none;
+    cursor:pointer;
+    padding:1.2rem 1.4rem;
+
+    display:flex;
+    align-items:flex-start;
+    gap:.8rem;
+}
+
+.education-card summary::-webkit-details-marker{
+    display:none;
+}
+
+.education-card summary::before{
+    content:"▸";
+    color:rgba(150,150,150,.8);
+    transition:transform .2s ease;
+    font-size:.9rem;
+
+    margin-top:.25rem;
+    flex-shrink:0;
+}
+
+.education-card[open] summary::before{
+    transform:rotate(90deg);
+}
+
+
+/* ==========================================
+   CURRENTLY CURIOUS ABOUT
+========================================== */
+
+.interest-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.8rem;
+    margin-top:1.2rem;
+}
+
+.interest-tag{
+    display:inline-block;
+    padding:.55rem 1rem;
+
+    border-radius:999px;
+
+    text-decoration:none !important;
+
+    font-size:.92rem;
+    font-weight:600;
+
+    border:1px solid rgba(120,120,120,.18);
+
+    background:rgba(255,255,255,.03);
+
+    transition:.2s;
+}
+
+.interest-tag:hover{
+
+    transform:translateY(-2px);
+
+    background:rgba(80,120,255,.08);
+
+    border-color:rgba(80,120,255,.18);
+
+}
+
+
+/* ==========================================
+   BEYOND ACADEMICS
+========================================== */
+
+.interest-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:1.2rem;
+
+}
+
+@media(max-width:900px){
+
+    .interest-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .interest-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+.interest-card{
+
+    display:block;
+
+    cursor:pointer;
+
+    perspective:1000px;
+
+    height:240px;
+
+}
+
+.interest-card input{
+
+    display:none;
+
+}
+
+.interest-card-inner{
+
+    position:relative;
+
+    width:100%;
+
+    height:100%;
+
+    transition:transform .6s;
+
+    transform-style:preserve-3d;
+
+}
+
+.interest-card input:checked + .interest-card-inner{
+
+    transform:rotateY(180deg);
+
+}
+
+.interest-card-front,
+.interest-card-back{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    border-radius:18px;
+
+    border:1px solid rgba(120,120,120,.18);
+
+    background:rgba(255,255,255,.03);
+
+    backface-visibility:hidden;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:1.5rem;
+
+    box-sizing:border-box;
+
+}
+
+.interest-card-front{
+
+    gap:.8rem;
+
+}
+
+.interest-card-back{
+
+    transform:rotateY(180deg);
+
+    line-height:1.7;
+
+    font-size:.95rem;
+
+}
+
+.interest-card-icon{
+
+    font-size:3rem;
+
+}
+
+.interest-card-title{
+
+    font-size:1.2rem;
+
+    font-weight:700;
+
+}
+
+
+/* ==========================================
+   LITTLE THINGS ABOUT ME
+========================================== */
+
+.little-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:1rem;
+
+    margin-top:1.5rem;
+
+}
+
+@media(max-width:900px){
+
+    .little-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .little-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+.little-card{
+
+    border:1px solid rgba(120,120,120,.18);
+
+    border-radius:14px;
+
+    background:rgba(255,255,255,.03);
+
+    overflow:hidden;
+
+    min-height:110px;
+
+    transition:
+        background .25s ease,
+        border-color .25s ease,
+        box-shadow .25s ease,
+        transform .2s ease;
+
+}
+
+.little-card summary{
+
+    list-style:none;
+
+    cursor:pointer;
+
+    padding:1rem;
+
+    font-size:1rem;
+
+    font-weight:650;
+
+    line-height:1.45;
+
+}
+
+.little-card summary::-webkit-details-marker{
+
+    display:none;
+
+}
+
+.little-card p,
+.little-card{
+
+    line-height:1.6;
+
+}
+
+.little-card[open]{
+
+    padding-bottom:1rem;
+
+}
+
+.little-card[open] summary{
+
+    margin-bottom:.6rem;
+
+}
+
+.little-card[open]{
+
+    padding-left:1rem;
+    padding-right:1rem;
+
+}
+
+.little-card[open]{
+
+    border-color:rgba(80,120,255,.25);
+
+    background:rgba(80,120,255,.05);
+
+    box-shadow:0 8px 18px rgba(0,0,0,.06);
+
+}
+
+.little-answer{
+
+    opacity:0;
+
+    transform:translateY(-6px);
+
+    transition:
+        opacity .25s ease,
+        transform .25s ease;
+
+}
+
+.little-card[open] .little-answer{
+
+    opacity:1;
+
+    transform:none;
+
+}
+
+
+/* ==========================================
+   CURRENTLY READING
+========================================== */
+
+.reading-list{
+
+    margin-top:1.5rem;
+
+}
+
+.reading-card{
+
+    display:flex;
+
+    gap:1.5rem;
+
+    align-items:flex-start;
+
+    border:1px solid rgba(120,120,120,.18);
+
+    border-radius:18px;
+
+    background:rgba(255,255,255,.03);
+
+    padding:1.3rem;
+
+}
+
+.reading-card img{
+
+    width:110px;
+
+    border-radius:10px;
+
+    flex-shrink:0;
+
+}
+
+.reading-info{
+
+    flex:1;
+
+}
+
+.reading-info h3{
+
+    margin-top:0;
+
+    margin-bottom:.25rem;
+
+}
+
+.reading-author{
+
+    opacity:.65;
+
+    margin-bottom:.9rem;
+
+    font-size:.95rem;
+
+}
+
+.reading-info p{
+
+    margin:0;
+
+    line-height:1.7;
+
+}
