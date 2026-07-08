@@ -1,6 +1,14 @@
 <div class="conference-entry">
+
     <div class="conference-title">
-        {{ .Get "title" }}
+        {{ with .Get "link" }}
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="conference-link">
+                {{ $.Get "title" }}
+            </a>
+        {{ else }}
+            {{ .Get "title" }}
+        {{ end }}
+
         {{ with .Get "type" }}
             <span class="conference-badge">{{ . }}</span>
         {{ end }}
@@ -8,13 +16,15 @@
 
     <div class="conference-meta">
         {{ with .Get "venue" }}<span>{{ . }}</span>{{ end }}
-        {{ if and (.Get "venue") (.Get "date") }}<span aria-hidden="true"> &bull; </span>{{ end }}
+        {{ if and (.Get "venue") (.Get "date") }}
+            <span aria-hidden="true"> &bull; </span>
+        {{ end }}
         {{ with .Get "date" }}<span>{{ . }}</span>{{ end }}
     </div>
 
     {{ with .Get "organizers" }}
         <div class="conference-description">
-            Hosted jointly by {{ . }}.
+           Organised by {{ . }}.
         </div>
     {{ end }}
 
@@ -32,4 +42,5 @@
             {{ end }}
         </div>
     {{ end }}
+
 </div>

@@ -1,0 +1,32 @@
+<div class="course-entry">
+
+    <div class="course-header">
+        <a href="{{ .Get "link" }}" class="course-title" target="_blank" rel="noopener">
+            {{ .Get "title" }}
+        </a>
+
+        {{ with .Get "certificate" }}
+            <a href="{{ . }}" class="course-certificate" target="_blank" rel="noopener">
+                📜 Certificate
+            </a>
+        {{ end }}
+    </div>
+
+    <div class="course-provider">
+        {{ .Get "provider" }}
+    </div>
+
+    {{ $progress := .Get "progress" }}
+
+<div class="course-progress">
+    <div
+        class="course-progress-fill"
+        {{ printf `style="width:%s%%"` $progress | safeHTMLAttr }}>
+    </div>
+</div>
+
+    <div class="course-progress-text">
+        {{ .Get "progress" }}% Complete
+    </div>
+
+</div>

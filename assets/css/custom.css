@@ -254,18 +254,29 @@
 .tag-container {
     display: flex;
     flex-wrap: wrap;
-    gap: .6rem;
-    margin: 1rem 0;
+    column-gap: 0.8rem;
+    row-gap: 1rem;      /* Increase this */
+    margin: 1.2rem 0;
+}
+
+.tag-container {
+    align-content: flex-start;
 }
 
 .research-tag {
-    display: inline-block;
-    padding: .4rem .9rem;
+    display: inline-flex;
+    align-items: center;
+
+    padding: 0.45rem 1rem;
     border-radius: 999px;
+
     background: rgba(80,120,255,.12);
     border: 1px solid rgba(80,120,255,.18);
+    margin-bottom: 0.5rem;
+
     font-size: .9rem;
     font-weight: 600;
+    line-height: 1.3;
 }
 
 
@@ -348,8 +359,6 @@
 
     padding:1.6rem 0;
 
-    border-bottom:1px solid rgba(120,120,120,.15);
-
 }
 
 .talk-entry:last-child{
@@ -360,9 +369,9 @@
 
 .talk-title{
 
-    font-size:1.35rem;
+    font-size:1.2rem;
 
-    font-weight:700;
+    font-weight:600;
 
     margin-bottom:.35rem;
 
@@ -506,7 +515,6 @@
 
     padding-bottom:1.5rem;
 
-    border-bottom:1px solid rgba(120,120,120,.12);
 
 }
 
@@ -520,7 +528,7 @@
 
     flex-wrap:wrap;
 
-    font-size:1.18rem;
+    font-size:1.2rem;
 
     font-weight:600;
 
@@ -1129,4 +1137,100 @@
 
     line-height:1.7;
 
+}
+
+@media (min-width:1024px){
+
+body{
+    padding-left:4rem !important;
+    padding-right:4rem !important;
+}
+
+}
+
+@media (min-width: 1280px) {
+
+    .max-w-prose {
+        max-width: none !important;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .toc {
+        padding-left: 4rem !important;
+    }
+
+}
+
+
+/* ==========================================
+   CERTIFICATE COURSES
+========================================== */
+
+.course-entry{
+    margin:1.5rem 0;
+}
+
+.course-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:1rem;
+    margin-bottom:.25rem;
+}
+
+.course-title{
+    color:inherit;
+    text-decoration:none;
+    font-weight:700;
+    font-size:1.05rem;
+}
+
+.course-title:hover{
+    text-decoration:underline;
+}
+
+.course-provider{
+    font-size:.9rem;
+    opacity:.75;
+    margin-bottom:.6rem;
+}
+
+.course-progress{
+    position:relative;
+    width:100%;
+    height:22px;
+    border-radius:999px;
+    background:rgba(120,120,120,.18);
+    overflow:hidden;
+}
+
+.course-progress-fill{
+    width:100%;
+    height:100%;
+    background: #1f3c6a;
+    border-radius:999px;
+    transition:width .4s ease;
+}
+
+.course-progress-label{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    font-size:.8rem;
+    font-weight:600;
+    color:white;
+    pointer-events:none;
+}
+
+.course-certificate{
+    font-size:.85rem;
+    text-decoration:none;
+}
+
+.course-certificate:hover{
+    text-decoration:underline;
 }

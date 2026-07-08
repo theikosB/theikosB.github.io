@@ -30,7 +30,7 @@ showAuthorBadges: false
 </div>
 
 
-## 💼 Research Internships
+## Research Internships
 
 {{< research-card
 title="Research Commons"
@@ -45,7 +45,7 @@ Designed structured curricula, curated references, and collaborated with undergr
 
 {{< /research-card >}}
 
-## 🧪 Research Experience
+## Research Experience
 
 {{< research-card
 title="Indian Institute of Technology Guwahati"
@@ -111,20 +111,13 @@ Co-taught an introductory course on Knot Theory together with **Suryansh Shirbha
 
 ---
 
-<div class="publication-header">
-
-<h2>📄 Research Publications</h2>
-
+## Research Publications  
 <a class="scholar-link"
 href="https://scholar.google.com/citations?user=mwZCtI0AAAAJ&hl=en"
 target="_blank"
 rel="noopener noreferrer">
-
-Google Scholar ↗
-
+(Google Scholar ↗)
 </a>
-
-</div>
 
 ### Journal Articles
 
@@ -160,7 +153,7 @@ doi="https://link.springer.com/chapter/10.1007/978-3-032-17156-6_4"
 
 ---
 
-## 🎤 Talks Given
+## Talks Given
 
 {{< talk
 title="Friendship Paradox: Your Friends are More Popular Than You"
@@ -191,13 +184,25 @@ An introductory talk covering fuzzy logic, fuzzy sets, fuzzy graphs, relations, 
 ---
 
 
-## 📍 Conferences / Workshops Attended
+## Conferences / Workshops Attended
+
+{{< conference
+title="12th Annual International Conference on Algorithms and Discrete Applied Mathematics"
+link="https://caldam2026.iitdh.ac.in/#h.vz11e5j9scho"
+type="🎓 Conference"
+venue="IIT Dharwad"
+date="12 - 14 February 2026 "
+organizers="Department of Mathematics, Indian Institute of Technology Dharwad"
+speakers="Our IIT Guwahati Team"
+>}}
+{{< /conference >}}
 
 {{< conference
 title="The Singapore-Bangalore \"What is ...?\" Workshop on Mathematics"
+link="https://sites.google.com/view/sgblrworkshop/home"
 type="🛠 Workshop"
 venue="IISc Bangalore"
-date="23-24 August 2025"
+date="23 - 24 August 2025"
 organizers="the National University of Singapore and the Indian Institute of Science"
 speakers="Matteo Mucciconi|Wee Teck Gan|Tien-Cuong Dinh|Subhro Ghosh|Chieu Minh Tran|Vincent Tan"
 >}}
@@ -206,8 +211,44 @@ speakers="Matteo Mucciconi|Wee Teck Gan|Tien-Cuong Dinh|Subhro Ghosh|Chieu Minh 
 
 ---
 
-## 🎓 Online Courses
-- <a href = "https://pll.harvard.edu/course/cs50s-introduction-programming-python" target = "_blank">**CS50's Introduction to Programming with Python**</a> by _Harvard School of Engineering and Applied Sciences_. (Completed) <a href="./CS50P.pdf" target="_blank" >Certificate here.</a>
-- <a href = "https://pll.harvard.edu/course/causal-diagrams-draw-your-assumptions-your-conclusions" target = "_blank">**Causal Diagrams: Draw Your Assumptions Before Your Conclusions**</a> by _Harvard Faculty of Arts & Sciences_. Completed first 5 weeks.
-- <a href = "https://www.coursera.org/learn/mathematical-thinking" target = "_blank">**Introduction to Mathematical Thinking**</a> by _Stanford Online_.(Completed) <a href="./_MT_Certificate_.pdf" target="_blank" >Certificate here.</a>
-- <a href = "https://www.hackerrank.com/certificates/67ec16438bb5" target = "_blank">**Python(Basic)**</a>, <a href = "https://www.hackerrank.com/certificates/cf566c7522e5" target = "_blank">**Problem Solving (Intermediate)**</a> by _HackerRank_
+## Online Courses
+
+{{< course
+title="CS50's Introduction to Programming with Python"
+provider="Harvard School of Engineering and Applied Sciences"
+link="https://cs50.harvard.edu/python/"
+progress="100"
+certificate="./CS50P.pdf"
+>}}
+
+{{< course
+title="Causal Diagrams: Draw Your Assumptions Before Your Conclusions"
+provider="Harvard Faculty of Arts & Sciences"
+link="https://pll.harvard.edu/course/causal-diagrams-draw-your-assumptions-your-conclusions"
+progress="42"
+>}}
+
+{{< course
+title="Introduction to Mathematical Thinking"
+provider="Stanford Online (Coursera)"
+link="https://www.coursera.org/learn/mathematical-thinking"
+progress="100"
+certificate="./_MT_Certificate_.pdf"
+>}}
+
+{{< course
+title="Python (Basic)"
+provider="HackerRank"
+link="https://www.hackerrank.com/skills-verification/python_basic"
+progress="100"
+certificate="https://www.hackerrank.com/certificates/67ec16438bb5"
+>}}
+
+{{< course
+title="Problem Solving (Intermediate)"
+provider="HackerRank"
+link="https://www.hackerrank.com/skills-verification/problem_solving_intermediate"
+progress="100"
+certificate="https://www.hackerrank.com/certificates/6083910bd905"
+>}}
+

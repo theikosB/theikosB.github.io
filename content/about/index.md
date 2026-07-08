@@ -10,23 +10,22 @@ showDateUpdated: false
 showAuthorBadges: false
 ---
 
-{{< lead >}}
-{{< typeit lifelike=true >}}Hi!👋 I'm <strong>Daibik Barik</strong>! {{< /typeit >}}
 
-<div style="text-align: justify"> I'm a college student, who is overwhelmed by the lots and lots of topics and his interests in real life. Even in mathematics, I like graph theory, probability, analysis, topology and sometimes even statistics. Here's to the various <a href="/research">research-related works</a> and this is <a href="/academic">how my journey went (academically)</a>. If you want to know me, check out some of my randomness in my <a href="/blog">blog</a>! <br>
-Also if you're a student and came here just for the study materials, they're <a href="/study">here</a>.</div>
+{{< lead >}}
+{{< typeit lifelike=true >}}Hi! 👋 I'm <strong>Daibik Barik</strong>.{{< /typeit >}}
+
+<div style="text-align: justify">
+
+I'm a mathematics and Theoritical CS student, who has never been very good at staying within the boundaries of one subject, and I've stopped trying to fight that. One week I'm reading about graph colourings, the next I'm trying to understand coding theory, and before long I've somehow wandered into game theory, topology or causal inference. I'm happiest when I'm learning something I wasn't supposed to be learning that day.
+
+This website is where I collect those interests. You'll find my <a href="/research">research-related works</a>, a <a href="/academic">journal of my academic journey</a>, <a href="/study">study materials</a> I've put together over the years, and occasionally a <a href="/blog">few thoughts in my blog</a>. If you stick around, you'll probably learn what I'm curious about as what I'm currently working on.
+
+</div>
 {{</lead>}}
 
- <span style="font-weight:bold;font-size:120%;">Here's my Curriculum Vitae</span> {{< button href="./cv.pdf" target="_blank" >}} {{< icon "download" >}} {{< /button >}}
-
+<span style="font-weight:bold;font-size:120%;">Here's my Curriculum Vitae</span> {{< button href="./cv.pdf" target="_blank" >}} {{< icon "download" >}} {{< /button >}}
 
 ---
-
-
-## Who am I?
-I've never been good at focusing on one thing. My interests have a habit of wandering in unexpected directions, and I've stopped trying to fight that. One week I'm reading about graph colourings, the next I'm trying to understand coding theory. Before I know it I'm into game theory, topology or causal inference. Whatever catches my attention that day. I'm happiest when I'm learning something I wasn't supposed to be learning that day.
-
-I've realised that I enjoy explaining maths as much as learning it. That's why I give talks mentor reading projects, write notes and build this website. Outside of maths I'm always curious. I like photography, chess, films and books. I enjoy discovering things even if they're not on my plan.
 
 
 ## Education
@@ -126,11 +125,7 @@ These are some topics I've been spending time reading, thinking and talking abou
 </div>
 
 
-## Beyond Academics
-
-There's a lot more to me than mathematics. Click on a card to learn a little more.
-
-## Beyond Academics
+### Beyond Academics
 
 There are quite a few things I enjoy outside of mathematics. Click on any card to know a little more.
 
@@ -172,6 +167,12 @@ I completed the fourth year under the Bengal Arts Association.
 I don't paint as often anymore, but sketching every now and then still feels surprisingly relaxing.
 {{< /interest-card >}}
 
+{{< interest-card icon="🍳" title="Cooking" >}}
+I like how preparation is more elegant than the meal.
+
+Trying out new recipes (theoritically), or just binge watching Masterchef is one of my new found hobbies.
+{{< /interest-card >}}
+
 {{< interest-card icon="🏸" title="Sports" >}}
 I enjoy staying active whenever I can.
 
@@ -181,7 +182,7 @@ Swimming, badminton and cricket are my favourites—it's a nice balance to spend
 </div>
 
 
-## Little Things About Me
+### Little Things About Me
 
 A few questions I've been asked before, and a few I wish someone would ask.
 
@@ -279,25 +280,6 @@ It started as a place to collect my work. Somewhere along the way, it became a p
 </div>
 
 
-### **Other Activities**
-- An active member of the **Chess Club** and **Movie Committee**, as well as volunteer for **Cultural Committee** and previously was a member of **Hostel Library Committe** in ISI Bangalore.
-- Was the **Discipline Captain (Boys)** in the Cabinet Council of DAV Model School, Durgapur.
-
-### **Hobbies**
-Outside of math, I try to stay curious in other directions too — whether it’s through a camera lens, a chessboard, a half-read novel, or an overly ambitious playlist. I like doing things that keep my brain moving but not always in straight lines.
-
-It’s probably just my way of making sense of the world — or at least trying to.
-
-- 📷 **Photography** — I love the quiet act of framing things. I once won a school-level contest and still occasionally chase good light.
-- ♟️ **Chess** — Blitz rating hovers around 1576, but it’s mostly just instinct and vibes.
-- 🎬 **Movies** — I watch everything. Friends call me “watch-it-all” for a reason.
-- 📚 **Reading** — From Bengali poetry to strange blog posts at 2AM — if it’s written with heart, I’m in.
-- 🎨 **Painting** — I’ve cleared 4th year under Bengal Arts Association and still sketch now and then.
-- 🎧 **Music** — Eclectic taste. You can peek into the madness [on my Spotify](https://open.spotify.com/user/pv327c8kr3lcp1m2ota0tzgun).
-- 🏸 **Sports** — Swimming, badminton, cricket — I like moving around just as much as sitting still with a book.
-
----
-
 ## On My Desk
 
 Books have probably influenced my journey more than anything. Here are a few that are currently occupying more of my time than they probably should.
@@ -331,19 +313,19 @@ Currently reading while exploring Algorithmic game theory and Mechanism Design. 
 
 <div class="reading-card">
 
-<img src="/img/books/wwmp.jpg" alt="Winning Ways">
+<img src="/img/books/ToC_MS.jpg" alt="Theory of Computation">
 
 <div class="reading-info">
 
-<h3> Winning Ways for Your Mathematical Plays </h3>
+<h3> The Theory of Computation </h3>
 
 <div class="reading-author">
-Berlekamp, John Conway, Richard K. Guy
+Michael Sipser
 </div>
 
 <p>
 
-Read this while exploring combinatorial game theory. It's one of those books that constantly makes me stop and admire how playful mathematics can be.
+Read this while prepapring for the UDGRP on _Introduction to Automata_, it probably introduced me to the whole logic in the TCS world.
 
 </p>
 
@@ -354,7 +336,7 @@ Read this while exploring combinatorial game theory. It's one of those books tha
 </div>
 
 
-## Self Studied Topics 
+### Other books
 - _Group Theory_ **"Visual Group Theory"** by Nathan Carter
 - _Neural ODE_ **"An introduction to Neural ODE"** by Pau Baldillou Salse
 - _Fuzzy_ **"Fuzzy Graph Theory"** by Sunil Matthew, John N. Mordeson & Davender S. Malik 
@@ -369,11 +351,7 @@ Read this while exploring combinatorial game theory. It's one of those books tha
 Thanks for visiting.
 
 I hope you found something interesting here.
-
-If you ever want to discuss mathematics,
-share a good book,
-or simply say hello,
-my inbox is always open.
+If you ever want to discuss mathematics, share a good book, or simply say hello, my inbox is always open.
 
 ~ Daibik
 
