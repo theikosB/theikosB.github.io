@@ -194,7 +194,8 @@ A few questions I've been asked before, and a few I wish someone would ask.
 
 <div class="little-answer">
 
-Hall's Marriage Theorem. It was one of the first results that made me stop and appreciate how elegant a proof could be.
+Chvátal's art gallery theorem. Its the niche-est theorem I have seen which fits exactly my style.
+
 
 </div>
 
