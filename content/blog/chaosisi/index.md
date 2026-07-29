@@ -3,7 +3,6 @@ title: "Literal CHAOS!"
 weight: 100
 draft: false
 protected: true
-password: "2025"
 description: "Our college fest and the festivities related to it"
 blog_tags: ["personal", "college"]
 showAuthor: true

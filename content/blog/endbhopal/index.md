@@ -3,7 +3,6 @@ title: "It ends with ... Bhopal?"
 weight: 100
 draft: false
 protected: true
-password: "2026"
 description: "About my 2026 internship to IISER Bhopal"
 blog_tags: ["personal", "internship"]
 showAuthor: true
